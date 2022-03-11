@@ -7,11 +7,11 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <title>DocsifyJS Template</title> <!-- TODO: Update. -->
+    <title>Smart Systems Motorwagentje Analyse door Bavo Debraekeleer</title>
     <meta name="description"
-        content="Documentation for the DocsifyJS Template project for making your own DocsifyJS docs site"> <!-- TODO: Update. -->
+        content="Analyse van een motorwagentje voor het vak Smart Systems aan AP Hogeschool.">
 
-    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> <!-- TODO: Replace the theme name or leave as is. -->
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> <!-- Replace the theme name or leave as is. -->
     
     <style>
         /* Fix issue on mobile devices where a custom cover image goes off the screen. */
@@ -27,7 +27,7 @@
     <!-- Docsify core. -->
     <script defer src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <!-- Syntax highlighting.-->
-    <!-- TODO: Add prism-bash, prism-python, prism-javascript etc. as separate items so you can load syntax highlighting for that language. -->
+    <!-- Add prism-bash, prism-python, prism-javascript etc. as separate items so you can load syntax highlighting for that language. -->
     <script defer src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
 
 </head>
@@ -36,19 +36,19 @@
     <div id="app"></div>
 
     <script>
-        var repoUrl = "https://github.com/MichaelCurrin/docsify-js-template"; // TODO: Update.
+        var repoUrl = "https://bavodebraekeleer.github.io/bavod-robotwagentje-analyse/";
         var editPath = repoUrl + "/blob/master/docs/";
         var editMsg = "📝 Edit on GitHub";
         
         window.$docsify = {
-            name: "DocsifyJS Template", // TODO: Update.
+            name: "Smart Systems Motorwagentje Analyse door Bavo Debraekeleer",
             repo: repoUrl,
             
             auto2top: true,
             coverpage: true,
-            loadSidebar: false,
+            loadSidebar: true,
             subMaxLevel: 2,
-            themeColor: "#3170a7", // TODO: Set your own color.
+            themeColor: "#3170a7", // Set theme color.
 
             plugins: [
                 EditOnGithubPlugin.create(editPath, null, editMsg)
