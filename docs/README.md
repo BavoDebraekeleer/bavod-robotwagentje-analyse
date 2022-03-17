@@ -102,8 +102,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
-	<col span="1" style="width: 25%;">
+    <col span="2" style="width: 70%;">
+	<col span="3" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -144,9 +144,9 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 30%;">
-    <col span="1" style="width: 40%;">
-	<col span="1" style="width: 25%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -220,9 +220,9 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 30%;">
-    <col span="1" style="width: 40%;">
-	<col span="1" style="width: 25%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -315,9 +315,9 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 30%;">
-    <col span="1" style="width: 40%;">
-	<col span="1" style="width: 25%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
