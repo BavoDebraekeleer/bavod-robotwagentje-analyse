@@ -17,6 +17,7 @@ Academiejaar 2021-2022
 
 Ontwerp van schakelingen om een robot wagentje aan te sturen.
 
+---
 
 ## As-Is Situatie
 
@@ -30,8 +31,9 @@ Ontwerp van schakelingen om een robot wagentje aan te sturen.
  - 3 voeding pins: 3V3, 5V, GND
  - 2 pin aansluiting voor ? : 3V3, PQ_L
  - 2x 2 GPIO spare pins
- 
- 
+
+---
+
 ## To-Be Situatie
 
 ### Doelen
@@ -52,12 +54,11 @@ Dit is de hoofd PCB.
  - 2x SMD Motor driver, prijs < €1, vb. LA6583MC-AH
  - OLED-scherm met I2C-sturing op PCB
  - ESP32 WROOM DevKit module, zie Schematic Checklist in Hardware Design Guidelines
- - 8line verbinden met ATMega
  - Mounting drill holes, voor bevestiging op wagentje
  - Batterij aansluiting (GND, VCC)
+ - 8line verbinden met ATMega
  
-<img src="./pictures/8line_top.jpg" width="50%">
-<img src="./pictures/8line_bottom.jpg" width="50%">
+<img src="./pictures/8line_top.jpg" width="50%"> <img src="./pictures/8line_bottom.jpg" width="50%">
 
 
 ### Sensorschakelingen vereisten:
@@ -79,6 +80,7 @@ Op aparte PCB bordjes.
 Er moeten ook een aantal verkeerssignalisaties ontwikkeld worden zoals verkeerslichten, slagbomen, enz.<br>
 Deze moeten dienen om de software van het wagentje te kunnen testen.
 
+---
 
 ## Mindmap
 
@@ -90,6 +92,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 ## Blokschema
 
 <img src="./pictures/" width="100%">
+
+---
 
 ## Specificaties
 
@@ -132,6 +136,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 	</td>
 </tr>
 </table>
+
+---
 
 ### Sturing
 
@@ -207,6 +213,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 </tr>
 </table>
 
+---
 
 ### Voeding
 
@@ -301,6 +308,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 </tr>
 </table>
 
+---
 
 ### Sensoren
 
@@ -376,6 +384,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 </tr>
 </table>
 
+---
+
 ## Elektrisch Schema
 
 <img src="./pictures/" width="100%"><br>
@@ -387,6 +397,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Statediagram
 
+---
+
 ## Flowcharts
 
 
@@ -396,6 +408,12 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Epics
 
+---
+
 ## Technical Stories
 
+---
+
 ## Sprints
+
+---
