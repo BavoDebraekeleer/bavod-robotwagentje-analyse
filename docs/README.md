@@ -75,7 +75,7 @@ Op dochter PCB bordje.
  - Ultrasoon + IR afstandssensoren
  - 8 channel IR Linetracker
  
-<img src="./pictures/8line_top.jpg" width="50%"><img src="./pictures/8line_bottom.jpg" width="50%">
+<img src="./pictures/8line_top.jpg" height="50px"><img src="./pictures/8line_bottom.jpg" height="50px">
 
 
 ### Besturing
@@ -91,7 +91,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
-<iframe width="100%" src="https://miro.com/app/live-embed/uXjVOER2lsE=/?moveToViewport=-498,-442,1048,920" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="100%" height="500px" src="https://miro.com/app/live-embed/uXjVOER2lsE=/?moveToViewport=-498,-442,1048,920" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 
 ---
