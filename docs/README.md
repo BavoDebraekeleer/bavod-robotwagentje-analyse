@@ -57,10 +57,10 @@ Dit is de hoofd PCB.
 	- 3.3V
  - Polariteitsbeveiliging
  - 2x SMD Motor driver, vb. LA6583MC-AH
-	- 7.2V 700mA
+	- 7.2V
+	- 700mA (Start stroom = 6x nominale stroom)
 	- Prijs < €1
-	- Start stroom = 6x nominale stroom
-	- Diode in tegen polariteit. Misschien reeds aanwezig op IC. Best altijd extra diode bij plaatsen voor de zekerheid.
+	- EMK beveiligingsdiode in tegen polariteit. Misschien reeds aanwezig op IC. Best altijd extra diode bij plaatsen voor de zekerheid.
  - OLED-scherm met I²C-sturing op PCB
  - ESP32 WROOM DevKit module, zie Schematic Checklist in Hardware Design Guidelines
  - Mounting drill holes, voor bevestiging op wagentje
@@ -71,11 +71,10 @@ Dit is de hoofd PCB.
 
 Op dochter PCB bordje.
 
- - ATMega328p/Arduino Nano SMD
  - Ultrasoon + IR afstandssensoren
  - 8 channel IR Linetracker
  
-<img src="./pictures/8line_top.jpg" height="50px"><img src="./pictures/8line_bottom.jpg" height="50px">
+<img src="./pictures/8line_top.jpg" height="100px"><img src="./pictures/8line_bottom.jpg" height="100px">
 
 
 ### Besturing
@@ -91,7 +90,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVOER2lsE=/?moveToViewport=-511,-479,1237,1068" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 
 ---
@@ -226,25 +225,6 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 		<a href="url">Winkel</a><br>
 	</td>
 </tr>
-<tr>
-    <td>8line</td>
-    <td>
-        <ul>
-            <li><b>ATMega verbindingsbordje.</b></li>
-            <li>V<sub>cc</sub> = V - V</li>
-            <li>I<sub>max</sub> = mA</li>
-			<li><i>Eenheidsprijs vanaf 10 stuks: €</i></li>
-			<li><i>Lead time: </i></li>
-        </ul>
-    </td>
-    <td>
-		Argumentatie.
-	</td>
-    <td>
-		<a href="./datasheet/">Datasheet</a><br>
-		<a href="url">Winkel</a><br>
-	</td>
-</tr>
 </table>
 
 ---
@@ -268,7 +248,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
     <td>Naam</td>
     <td>
         <ul>
-            <li><b>Batterij</b></li>
+            <li><b>LiPo Batterij</b></li>
             <li>V<sub>cc</sub> = V - V</li>
             <li>I<sub>max</sub> = mA</li>
 			<li><i>Eenheidsprijs vanaf 10 stuks: €</i></li>
@@ -379,7 +359,26 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 	</td>
 </tr>
 <tr>
-    <td>Naam</td>
+    <td>PCF8574</td>
+    <td>
+        <ul>
+            <li><b>Remote 8-bit I/O Expander I²C</b></li>
+            <li>V<sub>cc</sub> = V - V</li>
+            <li>I<sub>max</sub> = mA</li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €</i></li>
+			<li><i>Lead time: </i></li>
+        </ul>
+    </td>
+    <td>
+		Argumentatie.
+	</td>
+    <td>
+		<a href="./datasheet/PCF8574_IOExpander.pdf">Datasheet</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Texas-Instruments/PCF8574DGVR?qs=wgAEGBTxy7kn%2FU04Mebwcg%3D%3D">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>Sharp 2Y0A21</td>
     <td>
         <ul>
             <li><b>IR-afstandssensor</b></li>
@@ -398,7 +397,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 	</td>
 </tr>
 <tr>
-    <td>Naam</td>
+    <td>HC-SR04</td>
     <td>
         <ul>
             <li><b>Ultrasoon afstandssensor</b></li>
