@@ -91,7 +91,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
-<iframe width="100%" height="500px" src="https://miro.com/app/live-embed/uXjVOER2lsE=/?moveToViewport=-498,-442,1048,920" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVOER2lsE=/?moveToViewport=-511,-479,1237,1068" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 
 ---
