@@ -7,15 +7,18 @@ Smart Systems, Major Internet of Things, Elektronica-ICT<br>
 AP Hogeschool<br>
 Academiejaar 2021-2022
 
-<a href="https://bavodebraekeleer.github.io/bavod-robotwagentje-analyse/#/">GitHub Pages</a><br>
-
+<a href="https://bavodebraekeleer.github.io/bavod-robotwagentje-analyse/#/">Robotwagentje Analyse GitHub Pages</a><br>
+<a href="https://ap-it-gh.github.io/ssys-cursus/#/deliverables/analyse">Smart Systems GitHub Pages</a><br>
 
 
 ---
 
-# Opdracht
+# Probleemstelling
 
-Ontwerp van schakelingen om een robot wagentje aan te sturen.
+Ontwerp van een schakelingen om een robotwagentje aan te sturen.
+Dit opgedeeld in twee deel schakelingen.
+Een hoofd PCB met een ESP32, als ook een dochter PCB met een ATMega en sensoren om de sturing te kunnen realiseren.
+De vereisten zijn omschreven in de To-Be Situatie.
 
 ---
 
@@ -29,14 +32,14 @@ Ontwerp van schakelingen om een robot wagentje aan te sturen.
  - LCD scherm module, I²C pins op PCB: GND, SDA, SCL, 3V3
  - Ultrasoon module aansluiting: 5V, TRIG, ECHO, GND
  - 3 voeding pins: 3V3, 5V, GND
- - 2 pin aansluiting voor ? : 3V3, PQ_L
+ - 2 pin aansluiting: 3V3, PQ_L
  - 2x 2 GPIO spare pins
 
 ---
 
 ## To-Be Situatie
 
-### Doelen
+### Opdracht doelen
 
  - Sensoren toepassen in een praktische schakeling.
  - Voldoende materiaal genereren voor gebruik in het eerste jaar.
@@ -49,26 +52,30 @@ Dit is de hoofd PCB.
 
  - 2x UART connectoren
  - 3x I²C connectoren
- - Voltage regulator LDL1117 van 5V en 3.3V SMD
+ - Voltage regulator LDL1117 SMD
+	- 5V
+	- 3.3V
  - Polariteitsbeveiliging
- - 2x SMD Motor driver, prijs < €1, vb. LA6583MC-AH
- - OLED-scherm met I2C-sturing op PCB
+ - 2x SMD Motor driver, vb. LA6583MC-AH
+	- 7.2V 700mA
+	- Prijs < €1
+	- Start stroom = 6x nominale stroom
+	- Diode in tegen polariteit. Misschien reeds aanwezig op IC. Best altijd extra diode bij plaatsen voor de zekerheid.
+ - OLED-scherm met I²C-sturing op PCB
  - ESP32 WROOM DevKit module, zie Schematic Checklist in Hardware Design Guidelines
  - Mounting drill holes, voor bevestiging op wagentje
  - Batterij aansluiting (GND, VCC)
- - 8line verbinden met ATMega
+
+
+### Sensorschakeling vereisten:
+
+Op dochter PCB bordje.
+
+ - ATMega328p/Arduino Nano SMD
+ - Ultrasoon + IR afstandssensoren
+ - 8 channel IR Linetracker
  
-<img src="./pictures/8line_top.jpg" width="50%"> <img src="./pictures/8line_bottom.jpg" width="50%">
-
-
-### Sensorschakelingen vereisten:
-
-Op aparte PCB bordjes.
-
- - Linetracker (dringend)
- - IR-afstandssensoren 
- - Ultrasoon afstandssensoren
- - …
+<img src="./pictures/8line_top.jpg" width="50%"><img src="./pictures/8line_bottom.jpg" width="50%">
 
 
 ### Besturing
@@ -77,12 +84,14 @@ Op aparte PCB bordjes.
  - Automatisch rijden.
  - Volgens vast patroon rijden.
 
-Er moeten ook een aantal verkeerssignalisaties ontwikkeld worden zoals verkeerslichten, slagbomen, enz.<br>
+Er moeten ook een aantal verkeer signalisaties ontwikkeld worden zoals verkeerslichten, slagbomen, enz.<br>
 Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ---
 
 ## Mindmap
+
+<iframe width="100%" src="https://miro.com/app/live-embed/uXjVOER2lsE=/?moveToViewport=-498,-442,1048,920" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 
 ---
@@ -112,6 +121,31 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 </tr>
 <tr>
     <td>ESP32-WROOM-32</td>
+    <td>
+        <ul>
+            <li><b>ESP32 WROOM DevKit module</b></li>
+			<li>Core: ESP32-D0WD</li>
+			<li>SPI flash: 4 MB, 32 Mbits, 3.3V</li>
+			<li>Crustal: 40 MHz</li>
+            <li>V<sub>cc</sub> = 3.0V - 3.6V</li>
+            <li>I<sub>operating</sub> = 80mA</li>
+			<li>I<sub>min delivered by power supply</sub> = 500mA</li>
+			<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
+			<li>On-chip sensor: Hall sensor</li>
+			<li>Operating temperature: -40°C ~ +85°C</li>
+			<li><i>Eenheidsprijs: €3,82</i></li>
+			<li><i>Lead time: 10 weken</i></li>
+        </ul>
+    </td>
+    <td>
+		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
+		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
+		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Espressif-Systems/ESP32-WROOM-32U-H4?qs=Li%252BoUPsLEnumDLBsCjw4aA%3D%3D">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>Arduino Nano</td>
     <td>
         <ul>
             <li><b>ESP32 WROOM DevKit module</b></li>
@@ -326,10 +360,10 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
     <th>Data</th>
 </tr>
 <tr>
-    <td>Naam</td>
+    <td>MIR-3.0Y</td>
     <td>
         <ul>
-            <li><b>Linetracker</b></li>
+            <li><b>8x IR Line Tracking Module</b></li>
             <li>V<sub>cc</sub> = V - V</li>
             <li>I<sub>max</sub> = mA</li>
 			<li><i>Eenheidsprijs vanaf 10 stuks: €</i></li>
