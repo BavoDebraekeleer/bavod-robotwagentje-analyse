@@ -88,7 +88,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
-<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 <a href="./pictures/diagrams/mindmap.jpg">Mindmap afbeelding</a>
 
 
@@ -98,8 +98,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Blokschema
 
-<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521464112345" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/blokschema_1.jpg">Blokschema afbeelding 1</a><a href="./pictures/diagrams/blokschema_2.jpg">Blokschema afbeelding 2</a>
+<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521692424298" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<a href="./pictures/diagrams/blokschema.jpg">Blokschema afbeelding</a>
 
 
 ---
@@ -112,54 +112,9 @@ Reference websites:
  - <a href="https://www.tinytronics.nl/shop/nl">TinyTronics</a>
  - <a href="https://www.allaboutcircuits.com/electronic-components">All About Circuits</a>
 
+### Hoofd PCB: Sturingsschakeling
 
-### Microcontroller
-
-<table style="width: 100%">
-<colgroup>
-    <col span="1" style="width: 15%;">
-    <col span="2" style="width: 70%;">
-	<col span="3" style="width: 25%;">
-</colgroup>
-<tr>
-    <th>Naam</th>
-    <th>Eigenschappen</th>
-    <th>Data</th>
-</tr>
-<tr>
-    <td>ESP32-WROOM-32 Dev. Board</td>
-    <td>
-        <ul>
-            <li><b>ESP32 WROOM DevKit module</b></li>
-			<li>Core: ESP32-D0WD</li>
-			<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
-			<li>Crustal: 40 MHz</li>
-            <li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
-            <li>I<sub>operating</sub> = 80 mA</li>
-			<li>I<sub>min delivered by power supply</sub> = 500 mA</li>
-			<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
-			<li>On-chip sensor: Hall sensor</li>
-			<li>Operating temperature: -40°C ~ +85°C</li>
-			<li><i>Eenheidsprijs: €11,98</i></li>
-			<li><i>Lead time: 10 weken (op voorraad)</i></li>
-        </ul>
-    </td>
-    <td>
-		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
-		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
-		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
-		<a href="https://www.bol.com/be/nl/p/esp-wroom-32-ontwikkelbord/9200000114634593/?Referrer=ADVNLGOO002013-G-137016892532-S-1080766724149-9200000114634593&gclid=CjwKCAjwoduRBhA4EiwACL5RP3gmvcCjgniShMIKJF6Tj-c8ILHCnZigB3Wc8GkKKFBQUkc2TnLEZBoC6nkQAvD_BwE">Winkel</a><br>
-		
-		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatief met OLED</a>
-		
-		<a href="https://www.espressif.com/en/products/devkits">Alternatieve DevKits</a>
-	</td>
-</tr>
-</table>
-
----
-
-### Sturing
+#### Microcontroller
 
 <table style="width: 100%">
 <colgroup>
@@ -174,6 +129,49 @@ Reference websites:
     <th>Argumentatie</th>
     <th>Data</th>
 </tr>
+<tr>
+    <td>ESP32-WROOM-32 Dev. Board</td>
+    <td>
+        <ul>
+            <li><b>ESP32 WROOM DevKit module</b></li>
+			<li>Core: ESP32-D0WD</li>
+			<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
+			<li>Crystal: 40 MHz</li>
+            <li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
+            <li>I<sub>operating</sub> = 80 mA</li>
+			<li>I<sub>min delivered by power supply</sub> = 500 mA</li>
+			<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
+			<li>On-chip sensor: Hall sensor</li>
+			<li>Operating temperature: -40°C ~ +85°C</li>
+			<li><i>Eenheidsprijs: €11,98</i></li>
+			<li><i>Lead time: 10 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+	<td>
+		Gegeven in de opgave.
+	</td>
+    <td>
+		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
+		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
+		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
+		<a href="https://www.bol.com/be/nl/p/esp-wroom-32-ontwikkelbord/9200000114634593/?Referrer=ADVNLGOO002013-G-137016892532-S-1080766724149-9200000114634593&gclid=CjwKCAjwoduRBhA4EiwACL5RP3gmvcCjgniShMIKJF6Tj-c8ILHCnZigB3Wc8GkKKFBQUkc2TnLEZBoC6nkQAvD_BwE">Winkel</a><br>
+		
+		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatief met OLED</a>
+		
+		<a href="https://www.espressif.com/en/products/devkits">Alternatieve DevKits</a>
+	</td>
+</tr>
+</table>
+
+#### Sturing
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
+</colgroup>
 <tr>
     <td>LA6583MC-AH</td>
     <td>
@@ -244,7 +242,9 @@ Reference websites:
 
 ---
 
-### Sensoren
+### Dochter PCB: Sensorenschakeling
+
+#### Microcontroller
 
 <table style="width: 100%">
 <colgroup>
@@ -259,6 +259,72 @@ Reference websites:
     <th>Argumentatie</th>
     <th>Data</th>
 </tr>
+<tr>
+    <td>Arduino Nano</td>
+    <td>
+        <ul>
+            <li><b>Arduino Nano</b></li>
+			<li>Core: ATMega328p</li>
+			<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
+			<li>Clock speed: 16 MHz</li>
+            <li>V<sub>cc</sub> = 5 V</li>
+            <li>V<sub>max</sub> = 6 - 20 V</li>
+			<li>I<sub>per I/O pin</sub> = 40 mA</li>
+			<li>I<sub>3V3 I/O pin</sub> = 50 mA</li>
+			<li><i>Eenheidsprijs: €18,00</i></li>
+			<li><i>Lead time: Fabrikant afhankelijk (op voorraad)</i></li>
+        </ul>
+    </td>
+	<td>
+		De sensoren moeten op een apart bordje komen zodat de line tracker dicht tegen de grond zit.
+		Omdat hiervoor zeer veel verbindingen vereist zijn is het eenvoudiger om een extra microcontroller te voorzien.
+		Op die manier is er maar één enkele I²C verbinding nodig tussen de twee bordjes.
+		Er wordt hier gekozen voor een Arduino Nano omdat het gaat over een toepassing dat gebruikt moet kunnen worden door eerstejaars studenten.
+		
+		Een alternatief zou zijn de ATMega328p te embedden in de PCB in plaats van pin headers voor een Arduino Nano.
+	</td>
+    <td>
+		<a href="./datasheets/Arduino_Nano.pdf">Datasheet Arduino Nano</a><br>
+		<a href="./datasheets/ATMega328p.pdf">Datasheet ATMega328p</a><br>
+		<a href="https://docs.arduino.cc/hardware/nano">Officiële documentatie</a><br>
+		<a href="https://store.arduino.cc/products/arduino-nano">Winkel Arduino</a><br>
+		<a href="https://be.farnell.com/arduino/a000005/arduino-nano-evaluation-board/dp/1848691">Winkel Farnell</a><br>
+	</td>
+</tr>
+<tr>
+    <td>PCF8574</td>
+    <td>
+        <ul>
+            <li><b>Remote 8-bit I/O Expander I²C</b></li>
+            <li>V<sub>cc</sub> = 2.5 - 6 V</li>
+            <li>I<sub>cc Operating</sub> = 40 - 100 μA</li>
+			<li>I<sub>cc Standby</sub> = 2.5 - 10 μA</li>
+			<li><i>Eenheidsprijs: €</i></li>
+			<li><i>Lead time: </i></li>
+        </ul>
+    </td>
+    <td>
+		Als alternatief voor het werken met een extra microcontroller kan er ook gebruik gemaakt worden voor een I/O expander.
+		Deze kan de D1-D8 outputs van de line tracker's IR sensors opvangen en via I²C doorsturen waardoor de de vereiste GPIO pins op de ESP32 herleid worden naar 3.
+	</td>
+    <td>
+		<a href="./datasheet/PCF8574_IOExpander_TI.pdf">Datasheet TI</a><br>
+		<a href="./datasheet/PCF8574_IOExpander_NXP.pdf">Datasheet NXP</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Texas-Instruments/PCF8574DGVR?qs=wgAEGBTxy7kn%2FU04Mebwcg%3D%3D">Winkel Mouser PCF8574DGVR</a><br>
+		<a href="https://be.farnell.com/nxp/pcf8574t-3-512/i-o-expander-8bit-remote-so-16/dp/1506644?st=pcf8574">Winkel Farnell PCF8574T/3,512</a><br>
+	</td>
+</tr>
+</table>
+
+#### Sensoren
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
+</colgroup>
 <tr>
     <td>MJKDZ MIR-3.0Y</td>
     <td>
@@ -280,29 +346,7 @@ Reference websites:
 		<a href="https://www.tinytronics.nl/shop/nl/sensoren/optisch/infrarood/8x-ir-lijn-tracking-module-40mm-bereik">Winkel TinyTronics</a><br>
 	</td>
 </tr>
-<tr>
-    <td>PCF8574</td>
-    <td>
-        <ul>
-            <li><b>Remote 8-bit I/O Expander I²C</b></li>
-            <li>V<sub>cc</sub> = 2.5 - 6 V</li>
-            <li>I<sub>cc Operating</sub> = 40 - 100 μA</li>
-			<li>I<sub>cc Standby</sub> = 2.5 - 10 μA</li>
-			<li><i>Eenheidsprijs: €</i></li>
-			<li><i>Lead time: </i></li>
-        </ul>
-    </td>
-    <td>
-		Bovenstaande Line Tracker heeft op zich al 9 pins nodig. Bovenop de andere vereisten is dit te veel voor de hoeveelheid GPIO pins de ESP32 heeft.
-		Er is dus nood aan een IO uitbreiding zoals deze. Deze kan de D1-D8 outputs van de IR sensors opvangen en via I²C doorsturen waardoor de de vereiste GPIO pins op de ESP32 herleid worden naar 3.
-	</td>
-    <td>
-		<a href="./datasheet/PCF8574_IOExpander_TI.pdf">Datasheet TI</a><br>
-		<a href="./datasheet/PCF8574_IOExpander_NXP.pdf">Datasheet NXP</a><br>
-		<a href="https://www.mouser.be/ProductDetail/Texas-Instruments/PCF8574DGVR?qs=wgAEGBTxy7kn%2FU04Mebwcg%3D%3D">Winkel Mouser PCF8574DGVR</a><br>
-		<a href="https://be.farnell.com/nxp/pcf8574t-3-512/i-o-expander-8bit-remote-so-16/dp/1506644?st=pcf8574">Winkel Farnell PCF8574T/3,512</a><br>
-	</td>
-</tr>
+
 <tr>
     <td>Sharp GP2Y0A21YK0F</td>
     <td>
@@ -310,7 +354,7 @@ Reference websites:
             <li><b>IR-afstandssensor</b></li>
             <li>V<sub>cc</sub> = 4.5 - 5.5 V</li>
             <li>I<sub>typ</sub> = 30 mA</li>
-			<li>Bereik: 100 - 800 mm
+			<li>Bereik: 50 - 800 mm
 			<li>Afmetingen: 29.5 x 13 x 13.5 mm
 			<li><i>Eenheidsprijs: €5,50 - 12,06</i></li>
 			<li><i>Lead time: 16 weken (op voorraad)</i></li>
@@ -318,6 +362,7 @@ Reference websites:
     </td>
     <td>
 		Op voorraad in het labo.
+		Mogelijke variaties in exacte type en de bijhorende output spanning.
 	</td>
     <td>
 		<a href="./datasheets/Sharp_GP2Y0A21YK0F.pdf">Datasheet</a><br>
@@ -375,7 +420,7 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
-    <td>Zelfde als in As-Is</td>
+    <td>Conrad Energy LiPo accupack</td>
     <td>
         <ul>
             <li><b>LiPo softcase accupack</b></li>
@@ -489,25 +534,339 @@ Reference websites:
 
 # Software Analyse
 
-## Statediagram
+## Data I/O
+
+### Sturingsschakeling
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 20%;">
+    <col span="2" style="width: 40%;">
+    <col span="3" style="width: 40%;">
+</colgroup>
+<tr>
+    <th>Blok</th>
+    <th>Data In</th>
+    <th>Data Out</th>
+</tr>
+<tr>
+    <th>ESP32-WROOM-32</th>
+    <th>
+		Configuratie instellingen
+		Motor aansturing <b>WiFi</b>
+		Sensordata <b>I²C</b>
+	</th>
+    <th>
+		Feedback data <b>I²C</b>
+		2x motor aansturing <b>PWM</b>
+	</th>
+</tr>
+<tr>
+    <th>Motor Driver</th>
+    <th>Motor aansturing <b>PWM</b></th>
+    <th>N.V.T.</th>
+</tr>
+<tr>
+    <th>OLED Display</th>
+    <th>Feedback data <b>I²C</b></th>
+    <th>N.V.T.</th>
+</tr>
+</table>
+
+### Sensorenschakeling
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 20%;">
+    <col span="2" style="width: 40%;">
+    <col span="3" style="width: 40%;">
+</colgroup>
+<tr>
+    <th>Arduino Nano</th>
+    <th>
+		Configuratie instellingen
+		Line Tracker data D1-D8
+		Ultrasoon sensor echo
+		IR-afstandssensor afstand als analoge spanning.
+	</th>
+    <th>
+		Sensordata <b>I²C</b>
+		Line Tracker IR aan/uit
+		Ultrasoon sensor trigger
+	</th>
+</tr>
+<tr>
+    <th>Line Tracker</th>
+    <th>IR aan/uit</th>
+    <th>Data van 8x IR sensoren D1-D8.</th>
+</tr>
+<tr>
+    <th>Ultrasoon sensor</th>
+    <th>Trigger</th>
+    <th>Echo</th>
+</tr>
+<tr>
+    <th>IR-afstandssensor</th>
+    <th>N.V.T.</th>
+    <th>Afstand als analoge spanning.</th>
+</tr>
+</table>
 
 ---
 
-## Flowcharts
+## Statediagram & Flowcharts
+ 
+### Manuele bediening
+<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-manueel.jpg" width="100%"><br>
+<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="100%"><br>
+
+### Automatisch rijden
+<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-auto.jpg" width="100%"><br>
+<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="100%"><br>
+
+### Volgens vast patroon rijden
+<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-patroon.jpg" width="100%"><br>
+<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="100%"><br>
 
 
 ---
 
-# Planning
+# Release Plan
 
 ## Epics
+
+1. Analyse
+2. PCB ontwerp
+3. Software ontwikkeling
+4. Hardware samenstelling
+5. Software implementatie
+6. Validatie
 
 ---
 
 ## Technical Stories
 
+1. Analyse
+	- <b>Analyse maken</b>
+		- Narrative:
+			Analyse van de sturingsschakeling volgens onderstaand criteria.
+			
+		- Acceptance Criteria:
+			- Probleemstelling in 2 tot 5 lijnen
+			- Mindmap
+			- Hardware analyse
+			- Hardware blokdiaram
+			- Specificatie tabel
+			- Argumentatie en alternatieven tabel
+			- Software analyse
+			- Data In -en Outputs
+			- State diagram
+			- Flowchart
+			- Release plan
+			 
+		- Story Points (Estimate):
+			4
+
+2. PCB ontwerp
+	- <b>Sturingsschakeling</b>
+		- Narrative:
+			Het ontwerpen van de hoofd PCB aan de hand van de analyse.
+			
+		- Acceptance Criteria:
+			 - 2x UART connectoren
+			 - 3x I²C connectoren
+			 - Voltage regulator 5V & 3.3V
+			 - Polariteitsbeveiliging
+			 - 2x SMD Motor driver
+			 - OLED-scherm met I²C-sturing op PCB
+			 - Batterij aansluiting (GND, VCC)
+			 - Drill holes voor bevestiging van de PCB op het wagentje.
+		 
+		- Story Points (Estimate):
+			4
+			
+	- <b>Sensorenschakeling</b>
+		- Narrative:
+			Het ontwerpen van de dochter PCB aan de hand van de analyse.
+			
+		- Acceptance Criteria:
+			- Ultrasoon
+			- IR afstandssensoren
+			- 8 channel IR Line tracker
+		 
+		- Story Points (Estimate):
+			2
+			
+	- <b>PCB en onderdelen bestellen</b>
+		- Narrative:
+			Na het ontwerpen moeten de PCB's ook besteld worden.
+			Verder moet er een Bill of Materials (BOM) gegenereerd worden.
+			Componenten moeten verzameld worden en de ontbrekende componenten moeten besteld worden.
+			
+		- Acceptance Criteria:
+			- Elektrische schema's van beide PCB's
+			- Board files met de PCB-designs
+			- gerber-files van beide PCB's
+			- Bill of Materials
+			- PCB's bestellen
+			- Ontbrekende componenten bestellen.
+		 
+		- Story Points (Estimate):
+			1
+
+3. Software ontwikkeling
+	- <b>Manuele bediening</b>
+		- Narrative:
+			De gebruiker moet het robotwagentje manueel kunnen bedienen.
+			De commando's worden via internet verzonden en via WiFi ontvangen door de ESP32-WROOM-32 Dev. Kit module.
+			Deze moet de commando's dan verwerken en doorsturen naar de Motor Drivers.
+			
+		- Acceptance Criteria:
+			- Modus instellen
+			- WiFi verbinding
+			- Verwerking van commando's volgens statediagram en flowhcart.
+			- Aansturen van de motors via de Motor Drivers.
+		 
+		- Story Points (Estimate):
+			2
+			
+	- <b>Automatisch rijden</b>
+		- Narrative:
+			Het robotwagentje moet automatisch kunnen rijden zonder ergens tegen te botsen.
+			Dit gebeurt aan de hand van twee afstandssensors:
+				- IR-afstandssensor voor nauwkeurige korte afstand.
+				- Ultrasoon sensor voor grove lange afstand.
+			Wanneer er een obstakel gedetecteerd wordt waarmee het wagentje dreigt te botsen moet het wagentje bijgestuurd worden.
+			Het zal blijven draaien, links of rechts, tot er een vrij pad gevonden wordt.
+			Waarna het wagentje terug rechtdoor kan rijden.
+			Aangezien de sensoren op het dochter PCB staan moet de sensor data gelezen en verwerkt worden met de Arduino Nano/ATMega328p.
+			Deze moet dan verzonden worden over I²C naar de ESP23.
+			
+		- Acceptance Criteria:
+			- Modus instellen, van ESP32 naar Arduino sturen over I²C.
+			- IR-afstandssensor data opvragen en afstand berekenen met Arduino.
+			- Ultrasoon sensor data opvragen en afstand berekenen met Arduino.
+			- Data verzonden tussen Arduino en ESP32 met I²C.
+			- Obstakel detectie uitvoeren op ESP32.
+			- Correcte aansturing van de motor via de Motor Drivers met de ESP32.
+		 
+		- Story Points (Estimate):
+			4
+			
+	- <b>Volgens vast patroon rijden</b>
+		- Narrative:
+			Het robotwagentje moet een zwarte lijn kunnen volgen in een bepaald patroon.
+			Dit gebeurt aan de hand van een IR Line tracker.
+			Als het wagentje afwijkt van de lijn moet er bijgestuurd worden in de juiste richting.
+			Het moet ook instaat zijn om een hoek te detecteren en de correcte bocht te nemen.
+			Aangezien de sensoren op het dochter PCB staan moet de sensor data gelezen en verwerkt worden met de Arduino Nano/ATMega328p.
+			Deze moet dan verzonden worden over I²C naar de ESP23.
+			
+		- Acceptance Criteria:
+			- Modus instellen, van ESP32 naar Arduino sturen over I²C.
+			- Patroon in zwarte lijn met absorptie van circa 950 nm.
+			- In en uitschakelen van de Line tracker met de Arduino.
+			- Line tracker data lezen en verwerken met de Arduino.
+			- Data verzonden tussen Arduino en ESP32 met I²C.
+			- Correcte aansturing van de motor via de Motor Drivers met de ESP32.
+		 
+		- Story Points (Estimate):
+			4
+
+4. Hardware samenstelling
+	- <b>3D Print onderdelen</b>
+		- Narrative:
+			Om het dochter PCB op het wagentje te bevestigen moet een nieuw voorkant ontworpen worden voor het wagentje.
+			Hierbij moet er rekening gehouden worden dat de sensors goed geplaatst worden.
+			Dit zal gebeuren door de studenten die de Minor Maker volgen.
+			
+		- Acceptance Criteria:
+			- Line tracker moet <40 mm van de grond hangen.
+			- Geen obstructie voor beide afstandssensoren.
+			- USB-poorten van ESP32 en Arduino goed bereikbaar.
+		 
+		- Story Points (Estimate):
+			2
+		
+	- <b>Hoofd PCB solderen</b>
+		- Narrative:
+			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.
+			De componenten moeten verzameld worden en volgens schema gesoldeerd.
+			
+		- Acceptance Criteria:
+			- Controle PCB print
+			- Juiste plaatsing componenten volgens schema.
+			- Kwalitatief gesoldeerd.
+		 
+		- Story Points (Estimate):
+			2
+	
+	- <b>Dochter PCB solderen</b>
+		- Narrative:
+			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.
+			De componenten moeten verzameld worden en volgens schema gesoldeerd.
+			
+		- Acceptance Criteria:
+			- Controle PCB print
+			- Juiste plaatsing componenten volgens schema.
+			- Kwalitatief gesoldeerd.
+		 
+		- Story Points (Estimate):
+			2
+			
+	- <b>Robotwagentje samenstellen</b>
+		- Narrative:
+			Eens de PCB's en 3D prints klaar zijn kan het wagentje in elkaar gestoken worden.
+			
+		- Acceptance Criteria:
+			- Correcte plaatsing van de componenten.
+			- Onderdelen met elkaar verbonden waar nodig.
+		 
+		- Story Points (Estimate):
+			1
+
+5. Software implementatie
+	- <b>Microcontrollers programmeren</b>
+		- Narrative:
+			Nu de hardware klaar is moet de software nog geprogrammeerd worden op de microcontrollers.
+			
+		- Acceptance Criteria:
+			- ESP32-WROOM-32 Dev. Kite geprogrammeerd.
+			- Arduino Nano geprogrammeerd.
+		 
+		- Story Points (Estimate):
+			1
+
+
+6. Validatie
+	- <b>Tests uitvoeren</b>
+		- Narrative:
+			Eens het robotwagentje volledig in elkaar steekt en de software erop staat is het moment van de waarheid aangebroken en zal het moeten getest worden.
+			
+		- Acceptance Criteria:
+			- Alle componenten krijgen de correcte stroomvoorziening en spanning.
+			- Sensordata wordt opgemeten.
+			- Sensordata wodrt correct verwerkt.
+			- Modus instelling werkt.
+			- Modussen hebben een correcte werking.
+		 
+		- Story Points (Estimate):
+			2
+
+
 ---
 
 ## Sprints
+
+1. Analyse & PCB ontwerp
+2. <em>Afwezig door Internationaal Project: Zanzibar</em>
+3. <em>Afwezig door Internationaal Project: Zanzibar</em>
+4. Software ontwikkeling
+5. Hardware samenstelling & Software implementatie & Validatie
+
+<a href="https://www.ap.be/sites/default/files/reglementen/OT/2021-2022/Academische_kalender_21-22_OT.pdf">Academische kalender 2021-22</a>
 
 ---
