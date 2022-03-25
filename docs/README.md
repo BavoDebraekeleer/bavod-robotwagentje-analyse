@@ -24,7 +24,7 @@ De vereisten zijn omschreven in de To-Be Situatie.
 
 ## As-Is Situatie
 
-<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="100%">
+<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%">
 
  - Voltage Regulator LM7805 through hole
  - Motord river SN754410 through hole + 2x 2 motor pins: 1A, 1B, 2A, 2B
@@ -88,8 +88,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/mindmap.jpg">Mindmap afbeelding</a>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<a href="./pictures/diagrams/mindmap.jpg">Mindmap afbeelding</a><br>
 
 
 ---
@@ -98,8 +98,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Blokschema
 
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521692424298" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/blokschema.jpg">Blokschema afbeelding</a>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521692424298" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<a href="./pictures/diagrams/blokschema.jpg">Blokschema afbeelding</a><br>
 
 
 ---
@@ -107,10 +107,10 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 ## Specificaties
 
 Reference websites:
- - <a href="https://be.farnell.com/">Farnell</a>
- - <a href="https://www.mouser.be/">Mouser</a>
- - <a href="https://www.tinytronics.nl/shop/nl">TinyTronics</a>
- - <a href="https://www.allaboutcircuits.com/electronic-components">All About Circuits</a>
+ - <a href="https://be.farnell.com/">Farnell</a><br>
+ - <a href="https://www.mouser.be/">Mouser</a><br>
+ - <a href="https://www.tinytronics.nl/shop/nl">TinyTronics</a><br>
+ - <a href="https://www.allaboutcircuits.com/electronic-components">All About Circuits</a><br>
 
 ### Hoofd PCB: Sturingsschakeling
 
@@ -156,9 +156,9 @@ Reference websites:
 		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
 		<a href="https://www.bol.com/be/nl/p/esp-wroom-32-ontwikkelbord/9200000114634593/?Referrer=ADVNLGOO002013-G-137016892532-S-1080766724149-9200000114634593&gclid=CjwKCAjwoduRBhA4EiwACL5RP3gmvcCjgniShMIKJF6Tj-c8ILHCnZigB3Wc8GkKKFBQUkc2TnLEZBoC6nkQAvD_BwE">Winkel</a><br>
 		
-		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatief met OLED</a>
+		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatief met OLED</a><br>
 		
-		<a href="https://www.espressif.com/en/products/devkits">Alternatieve DevKits</a>
+		<a href="https://www.espressif.com/en/products/devkits">Alternatieve DevKits</a><br>
 	</td>
 </tr>
 </table>
@@ -172,6 +172,12 @@ Reference websites:
     <col span="3" style="width: 40%;">
 	<col span="4" style="width: 25%;">
 </colgroup>
+<tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
 <tr>
     <td>LA6583MC-AH</td>
     <td>
@@ -193,7 +199,7 @@ Reference websites:
 		Voor twee motors zijn er dus twee nodig in de schakeling.
 		Een enkele IC om de twee motors aan te sturen komt veel duurder uit of zijn niet op voorraad.
 		
-		<a href="https://www.mouser.be/ProductDetail/Toshiba/TB6612FNGC8EL?qs=rsevcuukUAy2UalRuv4E%2FQ%3D%3D">Alternatief: TB6612FNG</a>
+		<a href="https://www.mouser.be/ProductDetail/Toshiba/TB6612FNGC8EL?qs=rsevcuukUAy2UalRuv4E%2FQ%3D%3D">Alternatief: TB6612FNG</a><br>
 	</td>
     <td>
 		<a href="./datasheets/LA6583MC-AH.pdf">Datasheet</a><br>
@@ -222,20 +228,138 @@ Reference websites:
 		Er wordt hier gekozen voor een module omdat losse OLED displays moeilijk vindbaar zijn en/of duurder uitkomen, en meer werk zijn.
 		
 		Enkele merkloze alternatieven van TinyTronics met PIN connectors:
-		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit-i2c">0.96" 128x64 SSD1306 voor €7,00</a>
-		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a>
-		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a>
+		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit-i2c">0.96" 128x64 SSD1306 voor €7,00</a><br>
+		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
+		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
 		 
-		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a>
-		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a>
+		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a><br>
 	</td>
     <td>
-		<a href="https://wiki.seeedstudio.com/Grove-OLED-Display-0.96-SSD1315/">Fabrikant product info</a>
+		<a href="https://wiki.seeedstudio.com/Grove-OLED-Display-0.96-SSD1315/">Fabrikant product info</a><br>
 		<a href="./datasheets/OEL_Display_Module_SJY-2864KSWPG01.pdf">OLED Module Datasheet</a><br>
 		<a href="https://www.distrelec.biz/en/ssd1315-grove-96-128-64-monochrome-oled-display-seeed-studio-104020208/p/30164993?utm_source=octoX&utm_medium=cse&utm_campaign=octo-feed&ext_cid=ceoctaqzzen-na">Winkel Distrelec</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/seeed-studio-grove-oled-display-0.96-inch-128*64-pixels-wit-ssd1315">Winkel TinyTronics</a><br>
 		<a href="https://www.digikey.be/en/products/detail/104020208/1597-104020208-ND/10667534?utm_campaign=allaboutcircuits&utm_medium=aggregator&curr=usd&utm_source=octopart">Winkel Digi-Key</a><br>
 		<a href="https://github.com/olikraus/u8g2">Bibliotheek: U8g2</a><br>
+	</td>
+</tr>
+</table>
+
+#### Voeding
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
+</colgroup>
+<tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
+    <td>Conrad Energy LiPo accupack</td>
+    <td>
+        <ul>
+            <li><b>LiPo softcase accupack</b></li>
+            <li>V<sub>nomonaal</sub> = 7.4 V</li>
+            <li>I<sub>nominaal</sub> =  1200 mAh</li>
+			<li>Aantal cellen: 2</li>
+			<li>Belastbaarheid: 20 C</li>
+			<li>Aansluiting: XT60, XH-balancer</li>
+			<li>Afmetingen: 112 x 35 x 19 mm
+			<li><i>Eenheidsprijs: €16,49</i></li>
+			<li><i>Lead time: onbekend (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Zelfde batterij als in de As-Is situatie blijft behouden.
+	</td>
+    <td>
+		<a href="./datasheets/accu.pdf">Datasheet</a>
+		<a href="https://www.conrad.be/nl/p/conrad-energy-lipo-accupack-7-4-v-2400-mah-aantal-cellen-2-20-c-softcase-xt60-1344133.html?t=1&utm_source=google&utm_medium=surfaces&utm_term=1344133&utm_content=free-google-shopping-clicks&utm_campaign=shopping-feed&vat=true&gclid=CjwKCAjwxOCRBhA8EiwA0X8hi6Dpvaew0u-kTnIyrUmKE2RRHzkksSaw41QoJ36AmjOCY1n-dP7VnRoC240QAvD_BwE&gclsrc=aw.ds&tid=13894944235_122657379817_pla-301443522443_pla-1344133&WT.srch=1">Winkel Conrad</a><br>
+	</td>
+</tr>
+<tr>
+    <td>LDL1117S50R</td>
+    <td>
+        <ul>
+            <li><b>Voltage Regulator 5 V</b></li>
+			<li>Package: SOT223 SMD</li>
+			<li>V<sub>output</sub> = 5 V
+            <li>V<sub>input</sub> = 2.5 - 18 V</li>
+            <li>I<sub>output</sub> = 1.2 A</li>
+			<li><i>Eenheidsprijs: €0,56</i></li>
+			<li><i>Lead time: 52 weken (lage voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Eenvoudige en goedkope LDO regulator.
+		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.
+		Alternatief voorbeeld: <a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Micrel/MIC5211-LXYM6-TR?qs=U6T8BxXiZAWZW72McTiFRQ%3D%3D>MIC5211-LXYM6-TR</a><br>
+	</td>
+    <td>
+		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
+		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
+		<a href="https://www.mouser.be/ProductDetail/STMicroelectronics/LDL1117S50R?qs=AQlKX63v8RsuN9BQFiVf%2Fg%3D%3D">Winkel Mouser</a><br>
+		<a href="https://www.avnet.com/shop/us/products/stmicroelectronics/ldl1117s50r-3074457345642528941?CMP=EMA_Octopart_inventoryfeed_VSE>Winkel AVNET (op voorraad)</a><br>
+	</td>
+</tr>
+<tr>
+    <td>LDL1117S33R</td>
+    <td>
+        <ul>
+            <li><b>Voltage Regulator</b></li>
+			<li>Package: SOT-223 SMD</li>
+			<li>V<sub>output</sub> = 5 V
+            <li>V<sub>input</sub> = 2.5 - 18 V</li>
+            <li>I<sub>output</sub> = 1.2 A</li>
+			<li><i>Eenheidsprijs: €0,56</i></li>
+			<li><i>Lead time: 52 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Eenvoudige en goedkope LDO regulator.
+		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.<br>
+	</td>
+    <td>
+		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
+		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
+		<a href="https://www.mouser.be/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D">Winkel Mouser</a><br>
+		<a href="https://uk.farnell.com/stmicroelectronics/ldl1117s33r/ldo-fixed-3-3v-1-2a-sot-223-3/dp/2729708?st=ldl1117s33r">Winkel Farnell</a><br>
+	</td>
+</tr>
+<tr>
+    <td>DMG3414U</td>
+    <td>
+        <ul>
+            <li><b>Polariteitsbeveiliging N-channel MOSFET</b></li>
+			<li>Package: SOT-23 SMD</li>
+            <li>V<sub>ds</sub> = 20 V</li>
+            <li>I<sub>d</sub> = 4.2 A</li>
+			<li>R<sub>ds(on)</sub> = 0.019 ohm</a><br>
+			<li>V<sub>gs(th)</sub> = 500 mV</li>
+			<li>P<sub>d</sub> = 780 mW</li>
+			<li><i>Eenheidsprijs: 0,72€</i></li>
+			<li><i>Lead time: 52 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Een N-channel MOSFET met lage R<sub>ds(on)</sub> op de negatieve voedingslijn geeft de beste batterij levensduur volgens onderzoek.
+		De DMG3414U heeft een lage threshold spanning zodat deze ook geleid bij lage spanningen, en een V<sub>ds</sub> en I<sub>d</sub> die hoog genoeg zijn zodat de MOSFET niet stuk gaat in deze schakeling met 7.2 V batterij.
+		
+		<a href="./datasheets/Polariteitsbeveiliging_dt94-8.pdf">Polariteitsbeveiliging onderzoek</a><br>
+		<a href="http://www.irf.com/technical-info/designtp/dt94-8.pdf">Web download (bron)</a><br>
+		<a href="https://www.elektormagazine.nl/magazine/elektor-199907/39665>Uitleg.</a><br>
+		<a href="https://www.circuitsonline.net/forum/view/50988>Uitleg.</a><br>
+	</td>
+    <td>
+		<a href="./datasheets/DMG3414U_N-MOSFET.pdf">Datasheet</a><br>
+		<a href="https://nl.farnell.com/diodes-inc/dmg3414u/mosfet-n-ch-w-diode-20v-4-2a-sot23/dp/2061404?st=mosfet%20n%20smd">Winkel Farnell</a><br>
 	</td>
 </tr>
 </table>
@@ -326,6 +450,12 @@ Reference websites:
 	<col span="4" style="width: 25%;">
 </colgroup>
 <tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
     <td>MJKDZ MIR-3.0Y</td>
     <td>
         <ul>
@@ -396,128 +526,8 @@ Reference websites:
 		<a href="https://www.tinytronics.nl/shop/nl/sensoren/afstand/ultrasonische-sensor-hc-sr04">Winkel TinyTronics</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Adafruit/3942?qs=byeeYqUIh0OD1hDPcrj%252BAQ%3D%3D">Winkel Mouser (Adafruit)</a><br>
 		<a href="https://www.mouser.be/ProductDetail/OSEPP-Electronics/HC-SR04?qs=wNBL%252BABd93PqZEhuhHkuOw%3D%3D">Winkel Mouser (SEPP)</a><br>
-		<a href="https://www.osepp.com/downloads/HCSR04_Library.zip">OSEPP Library</a>
-		<a href="https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6">Arduino tutorial</a>
-	</td>
-</tr>
-</table>
-
----
-
-### Voeding
-
-<table style="width: 100%">
-<colgroup>
-    <col span="1" style="width: 15%;">
-    <col span="2" style="width: 30%;">
-    <col span="3" style="width: 40%;">
-	<col span="4" style="width: 25%;">
-</colgroup>
-<tr>
-    <th>Naam</th>
-    <th>Eigenschappen</th>
-    <th>Argumentatie</th>
-    <th>Data</th>
-</tr>
-<tr>
-    <td>Conrad Energy LiPo accupack</td>
-    <td>
-        <ul>
-            <li><b>LiPo softcase accupack</b></li>
-            <li>V<sub>nomonaal</sub> = 7.4 V</li>
-            <li>I<sub>nominaal</sub> =  1200 mAh</li>
-			<li>Aantal cellen: 2</li>
-			<li>Belastbaarheid: 20 C</li>
-			<li>Aansluiting: XT60, XH-balancer</li>
-			<li>Afmetingen: 112 x 35 x 19 mm
-			<li><i>Eenheidsprijs: €16,49</i></li>
-			<li><i>Lead time: onbekend (op voorraad)</i></li>
-        </ul>
-    </td>
-    <td>
-		Zelfde batterij als in de As-Is situatie blijft behouden.
-	</td>
-    <td>
-		<a href="./datasheets/accu.pdf">Datasheet</a>
-		<a href="https://www.conrad.be/nl/p/conrad-energy-lipo-accupack-7-4-v-2400-mah-aantal-cellen-2-20-c-softcase-xt60-1344133.html?t=1&utm_source=google&utm_medium=surfaces&utm_term=1344133&utm_content=free-google-shopping-clicks&utm_campaign=shopping-feed&vat=true&gclid=CjwKCAjwxOCRBhA8EiwA0X8hi6Dpvaew0u-kTnIyrUmKE2RRHzkksSaw41QoJ36AmjOCY1n-dP7VnRoC240QAvD_BwE&gclsrc=aw.ds&tid=13894944235_122657379817_pla-301443522443_pla-1344133&WT.srch=1">Winkel Conrad</a><br>
-	</td>
-</tr>
-<tr>
-    <td>LDL1117S50R</td>
-    <td>
-        <ul>
-            <li><b>Voltage Regulator 5 V</b></li>
-			<li>Package: SOT223 SMD</li>
-			<li>V<sub>output</sub> = 5 V
-            <li>V<sub>input</sub> = 2.5 - 18 V</li>
-            <li>I<sub>output</sub> = 1.2 A</li>
-			<li><i>Eenheidsprijs: €0,56</i></li>
-			<li><i>Lead time: 52 weken (lage voorraad)</i></li>
-        </ul>
-    </td>
-    <td>
-		Eenvoudige en goedkope LDO regulator.
-		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.
-		Alternatief voorbeeld: <a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Micrel/MIC5211-LXYM6-TR?qs=U6T8BxXiZAWZW72McTiFRQ%3D%3D>MIC5211-LXYM6-TR</a>
-	</td>
-    <td>
-		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
-		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
-		<a href="https://www.mouser.be/ProductDetail/STMicroelectronics/LDL1117S50R?qs=AQlKX63v8RsuN9BQFiVf%2Fg%3D%3D">Winkel Mouser</a><br>
-		<a href="https://www.avnet.com/shop/us/products/stmicroelectronics/ldl1117s50r-3074457345642528941?CMP=EMA_Octopart_inventoryfeed_VSE>Winkel AVNET (op voorraad)</a><br>
-	</td>
-</tr>
-<tr>
-    <td>LDL1117S33R</td>
-    <td>
-        <ul>
-            <li><b>Voltage Regulator</b></li>
-			<li>Package: SOT-223 SMD</li>
-			<li>V<sub>output</sub> = 5 V
-            <li>V<sub>input</sub> = 2.5 - 18 V</li>
-            <li>I<sub>output</sub> = 1.2 A</li>
-			<li><i>Eenheidsprijs: €0,56</i></li>
-			<li><i>Lead time: 52 weken (op voorraad)</i></li>
-        </ul>
-    </td>
-    <td>
-		Eenvoudige en goedkope LDO regulator.
-		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.
-	</td>
-    <td>
-		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
-		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
-		<a href="https://www.mouser.be/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D">Winkel Mouser</a><br>
-		<a href="https://uk.farnell.com/stmicroelectronics/ldl1117s33r/ldo-fixed-3-3v-1-2a-sot-223-3/dp/2729708?st=ldl1117s33r">Winkel Farnell</a><br>
-	</td>
-</tr>
-<tr>
-    <td>DMG3414U</td>
-    <td>
-        <ul>
-            <li><b>Polariteitsbeveiliging N-channel MOSFET</b></li>
-			<li>Package: SOT-23 SMD</li>
-            <li>V<sub>ds</sub> = 20 V</li>
-            <li>I<sub>d</sub> = 4.2 A</li>
-			<li>R<sub>ds(on)</sub> = 0.019 ohm</a>
-			<li>V<sub>gs(th)</sub> = 500 mV</li>
-			<li>P<sub>d</sub> = 780 mW</li>
-			<li><i>Eenheidsprijs: 0,72€</i></li>
-			<li><i>Lead time: 52 weken (op voorraad)</i></li>
-        </ul>
-    </td>
-    <td>
-		Een N-channel MOSFET met lage R<sub>ds(on)</sub> op de negatieve voedingslijn geeft de beste batterij levensduur volgens onderzoek.
-		De DMG3414U heeft een lage threshold spanning zodat deze ook geleid bij lage spanningen, en een V<sub>ds</sub> en I<sub>d</sub> die hoog genoeg zijn zodat de MOSFET niet stuk gaat in deze schakeling met 7.2 V batterij.
-		
-		<a href="./datasheets/Polariteitsbeveiliging_dt94-8.pdf">Polariteitsbeveiliging onderzoek</a>
-		<a href="http://www.irf.com/technical-info/designtp/dt94-8.pdf">Web download (bron)</a>
-		<a href="https://www.elektormagazine.nl/magazine/elektor-199907/39665>Uitleg.</a>
-		<a href="https://www.circuitsonline.net/forum/view/50988>Uitleg.</a>
-	</td>
-    <td>
-		<a href="./datasheets/DMG3414U_N-MOSFET.pdf">Datasheet</a><br>
-		<a href="https://nl.farnell.com/diodes-inc/dmg3414u/mosfet-n-ch-w-diode-20v-4-2a-sot23/dp/2061404?st=mosfet%20n%20smd">Winkel Farnell</a><br>
+		<a href="https://www.osepp.com/downloads/HCSR04_Library.zip">OSEPP Library</a><br>
+		<a href="https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6">Arduino tutorial</a><br>
 	</td>
 </tr>
 </table>
@@ -582,6 +592,11 @@ Reference websites:
     <col span="3" style="width: 40%;">
 </colgroup>
 <tr>
+    <th>Blok</th>
+    <th>Data In</th>
+    <th>Data Out</th>
+</tr>
+<tr>
     <th>Arduino Nano</th>
     <th>
 		Configuratie instellingen
@@ -617,19 +632,19 @@ Reference websites:
 ## Statediagram & Flowcharts
  
 ### Manuele bediening
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-manueel.jpg" width="100%"><br>
-<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="100%"><br>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-manueel.jpg" width="600px"><br>
+<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="1000px"><br>
 
 ### Automatisch rijden
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-auto.jpg" width="100%"><br>
-<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="100%"><br>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-auto.jpg" width="600px"><br>
+<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="800px"><br>
 
 ### Volgens vast patroon rijden
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-patroon.jpg" width="100%"><br>
-<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="100%"><br>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-patroon.jpg" width="600px"><br>
+<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="1000px"><br>
 
 
 ---
@@ -737,8 +752,9 @@ Reference websites:
 		- Narrative:
 			Het robotwagentje moet automatisch kunnen rijden zonder ergens tegen te botsen.
 			Dit gebeurt aan de hand van twee afstandssensors:
-				- IR-afstandssensor voor nauwkeurige korte afstand.
-				- Ultrasoon sensor voor grove lange afstand.
+			- IR-afstandssensor voor nauwkeurige korte afstand.
+			- Ultrasoon sensor voor grove lange afstand.
+			
 			Wanneer er een obstakel gedetecteerd wordt waarmee het wagentje dreigt te botsen moet het wagentje bijgestuurd worden.
 			Het zal blijven draaien, links of rechts, tot er een vrij pad gevonden wordt.
 			Waarna het wagentje terug rechtdoor kan rijden.
@@ -867,6 +883,6 @@ Reference websites:
 4. Software ontwikkeling
 5. Hardware samenstelling & Software implementatie & Validatie
 
-<a href="https://www.ap.be/sites/default/files/reglementen/OT/2021-2022/Academische_kalender_21-22_OT.pdf">Academische kalender 2021-22</a>
+<a href="https://www.ap.be/sites/default/files/reglementen/OT/2021-2022/Academische_kalender_21-22_OT.pdf">Academische kalender 2021-22</a><br>
 
 ---
