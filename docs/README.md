@@ -110,7 +110,7 @@ Reference websites:
  - <a href="https://be.farnell.com/">Farnell</a><br>
  - <a href="https://www.mouser.be/">Mouser</a><br>
  - <a href="https://www.tinytronics.nl/shop/nl">TinyTronics</a><br>
- - <a href="https://www.allaboutcircuits.com/electronic-components">All About Circuits</a><br>
+ - <a href="https://octopart.com/">Octopart</a><br>
 
 ### Hoofd PCB: Sturingsschakeling
 
@@ -130,10 +130,10 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
-    <td>ESP32-WROOM-32 Dev. Board</td>
+    <td>ESP32-WROOM-32</td>
     <td>
         <ul>
-            <li><b>ESP32 WROOM DevKit module</b></li>
+            <li><b>ESP32 microcontroller</b></li>
 			<li>Core: ESP32-D0WD</li>
 			<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
 			<li>Crystal: 40 MHz</li>
@@ -143,7 +143,7 @@ Reference websites:
 			<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
 			<li>On-chip sensor: Hall sensor</li>
 			<li>Operating temperature: -40°C ~ +85°C</li>
-			<li><i>Eenheidsprijs: €11,98</i></li>
+			<li><i>Eenheidsprijs: €4,68</i></li>
 			<li><i>Lead time: 10 weken (op voorraad)</i></li>
         </ul>
     </td>
@@ -154,11 +154,11 @@ Reference websites:
 		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
 		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
 		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
-		<a href="https://www.bol.com/be/nl/p/esp-wroom-32-ontwikkelbord/9200000114634593/?Referrer=ADVNLGOO002013-G-137016892532-S-1080766724149-9200000114634593&gclid=CjwKCAjwoduRBhA4EiwACL5RP3gmvcCjgniShMIKJF6Tj-c8ILHCnZigB3Wc8GkKKFBQUkc2TnLEZBoC6nkQAvD_BwE">Winkel</a><br>
+		<a href="https://www.digikey.be/nl/products/detail/espressif-systems/ESP32-WROOM-32/8544298">Winkel Digi-Key</a>
+		<br>
+		<a href="https://www.bol.com/be/nl/p/esp-wroom-32-ontwikkelbord/9200000114634593/?Referrer=ADVNLGOO002013-G-137016892532-S-1080766724149-9200000114634593&gclid=CjwKCAjwoduRBhA4EiwACL5RP3gmvcCjgniShMIKJF6Tj-c8ILHCnZigB3Wc8GkKKFBQUkc2TnLEZBoC6nkQAvD_BwE">Winkel Bol.com Dev. Kit</a><br>
 		
-		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatief met OLED</a><br>
-		
-		<a href="https://www.espressif.com/en/products/devkits">Alternatieve DevKits</a><br>
+		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatieve kit met OLED</a><br>
 	</td>
 </tr>
 </table>
@@ -207,27 +207,32 @@ Reference websites:
 	</td>
 </tr>
 <tr>
-    <td>Seeed Studio Grove 104020208</td>
+    <td>Merkloos OLED 0.96" SPI</td>
     <td>
         <ul>
             <li><b>0.96" OLED Display 128x64</b></li>
             <li>V<sub>cc</sub> = 3.3 - 5 V</li>
             <li>I<sub>cc</sub> = 9 - 15 mA</li>
 			<li>Controller: SSD1315</li>
-			<li>Comm protocol: I²C</li>
-			<li>Connector: JST 4P</li>
+			<li>Comm protocol: SPI of I²C</li>
+			<li>Connector: 7 PIN's</li>
+			<li>Afmetingen: 27.8 x 27.3 x 4.3 mm</li>
+			<li>Drill holes: 2 mm diameter, ~1 mm van de rand
 			<li><i>Eenheidsprijs: €4,60 - €7,00</i></li>
 			<li><i>Lead time: </i></li>
         </ul>
     </td>
     <td>
-		Zeer goedkope OLED van gemiddelde grote die zowel op 3.3 V als op 5 V werkt.
-		De JST connector maakt verbinden gemakkelijk. Deze zit echter wel aan de bovenkant, wat niet de meest praktische plaats is.
-		De toepassing is hier echter voor gebruik door studenten waarbij het een voordeel is dat alles goed zichtbaar is.
-		
 		Er wordt hier gekozen voor een module omdat losse OLED displays moeilijk vindbaar zijn en/of duurder uitkomen, en meer werk zijn.
+		Deze merkloze verzie is op voorraad in het labo en kan werken op I²C mits kleine aanpassingen aan de PCB.
 		
-		Enkele merkloze alternatieven van TinyTronics met PIN connectors:
+		I²C aansluitingen: D0 = SCL, D1 = SDA, DC & CS = GND, RST = Solderen
+		
+		Goedkoper alternatief: Seeed Studio Grove 104020208
+		<a href="https://www.distrelec.biz/en/ssd1315-grove-96-128-64-monochrome-oled-display-seeed-studio-104020208/p/30164993?utm_source=octoX&utm_medium=cse&utm_campaign=octo-feed&ext_cid=ceoctaqzzen-na">Winkel Distrelec</a><br>
+		<a href="https://wiki.seeedstudio.com/Grove-OLED-Display-0.96-SSD1315/">Fabrikant product info</a><br>
+		
+		Enkele alternatieven van TinyTronics met I²C PIN connectors in meerdere formaten:
 		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit-i2c">0.96" 128x64 SSD1306 voor €7,00</a><br>
 		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
 		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
@@ -236,11 +241,9 @@ Reference websites:
 		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a><br>
 	</td>
     <td>
-		<a href="https://wiki.seeedstudio.com/Grove-OLED-Display-0.96-SSD1315/">Fabrikant product info</a><br>
+		
 		<a href="./datasheets/OEL_Display_Module_SJY-2864KSWPG01.pdf">OLED Module Datasheet</a><br>
-		<a href="https://www.distrelec.biz/en/ssd1315-grove-96-128-64-monochrome-oled-display-seeed-studio-104020208/p/30164993?utm_source=octoX&utm_medium=cse&utm_campaign=octo-feed&ext_cid=ceoctaqzzen-na">Winkel Distrelec</a><br>
-		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/seeed-studio-grove-oled-display-0.96-inch-128*64-pixels-wit-ssd1315">Winkel TinyTronics</a><br>
-		<a href="https://www.digikey.be/en/products/detail/104020208/1597-104020208-ND/10667534?utm_campaign=allaboutcircuits&utm_medium=aggregator&curr=usd&utm_source=octopart">Winkel Digi-Key</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-blauw">Winkel TinyTronics</a><br>
 		<a href="https://github.com/olikraus/u8g2">Bibliotheek: U8g2</a><br>
 	</td>
 </tr>
@@ -406,6 +409,7 @@ Reference websites:
 		Er wordt hier gekozen voor een Arduino Nano omdat het gaat over een toepassing dat gebruikt moet kunnen worden door eerstejaars studenten.
 		
 		Een alternatief zou zijn de ATMega328p te embedden in de PCB in plaats van pin headers voor een Arduino Nano.
+		Dan moet er ook nog een <a href="https://be.farnell.com/multicomp/hc49sm-16-30-50-60-16-atf/crystal-hc-49-4hsmx-16-0mhz/dp/1667017RL">kristal</a> bij op.
 	</td>
     <td>
 		<a href="./datasheets/Arduino_Nano.pdf">Datasheet Arduino Nano</a><br>
