@@ -633,18 +633,18 @@ Reference websites:
  
 ### Manuele bediening
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-manueel.jpg" width="350px"><br>
-<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="686px"><br>
+<img src="./pictures/diagrams/statediagram-manueel.jpg" width="600px"><br>
+<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="1000px"><br>
 
 ### Automatisch rijden
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-auto.jpg" width="300px"><br>
-<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="400px"><br>
+<img src="./pictures/diagrams/statediagram-auto.jpg" width="600px"><br>
+<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="800px"><br>
 
 ### Volgens vast patroon rijden
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-patroon.jpg" width="300px"><br>
-<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="577px"><br>
+<img src="./pictures/diagrams/statediagram-patroon.jpg" width="600px"><br>
+<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="1000px"><br>
 
 
 ---
