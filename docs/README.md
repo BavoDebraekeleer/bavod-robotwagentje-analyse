@@ -24,7 +24,7 @@ De vereisten zijn omschreven in de To-Be Situatie.
 
 ## As-Is Situatie
 
-<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="100%">
+<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="70%">
 
  - Voltage Regulator LM7805 through hole
  - Motord river SN754410 through hole + 2x 2 motor pins: 1A, 1B, 2A, 2B
@@ -88,7 +88,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 <a href="./pictures/diagrams/mindmap.jpg">Mindmap afbeelding</a>
 
 
@@ -98,7 +98,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Blokschema
 
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521692424298" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521692424298" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 <a href="./pictures/diagrams/blokschema.jpg">Blokschema afbeelding</a>
 
 
@@ -617,19 +617,19 @@ Reference websites:
 ## Statediagram & Flowcharts
  
 ### Manuele bediening
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-manueel.jpg" width="100%"><br>
-<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="100%"><br>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-manueel.jpg"><br>
+<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg"><br>
 
 ### Automatisch rijden
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-auto.jpg" width="100%"><br>
-<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="100%"><br>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-auto.jpg"><br>
+<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg"><br>
 
 ### Volgens vast patroon rijden
-<iframe width="1000" height="500" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-patroon.jpg" width="100%"><br>
-<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="100%"><br>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<img src="./pictures/diagrams/statediagram-patroon.jpg"><br>
+<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" ><br>
 
 
 ---
