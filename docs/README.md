@@ -173,6 +173,12 @@ Reference websites:
 	<col span="4" style="width: 25%;">
 </colgroup>
 <tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
     <td>LA6583MC-AH</td>
     <td>
         <ul>
@@ -444,6 +450,12 @@ Reference websites:
 	<col span="4" style="width: 25%;">
 </colgroup>
 <tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
     <td>MJKDZ MIR-3.0Y</td>
     <td>
         <ul>
@@ -579,6 +591,11 @@ Reference websites:
     <col span="2" style="width: 40%;">
     <col span="3" style="width: 40%;">
 </colgroup>
+<tr>
+    <th>Blok</th>
+    <th>Data In</th>
+    <th>Data Out</th>
+</tr>
 <tr>
     <th>Arduino Nano</th>
     <th>
