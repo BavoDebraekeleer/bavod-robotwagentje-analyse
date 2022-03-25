@@ -312,6 +312,14 @@ Reference websites:
 		<a href="https://www.avnet.com/shop/us/products/stmicroelectronics/ldl1117s50r-3074457345642528941?CMP=EMA_Octopart_inventoryfeed_VSE>Winkel AVNET (op voorraad)</a><br>
 	</td>
 </tr>
+</table>
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="2" style="width: 30%;">
+    <col span="3" style="width: 40%;">
+	<col span="4" style="width: 25%;">
+</colgroup>
 <tr>
     <td>LDL1117S33R</td>
     <td>
@@ -474,6 +482,8 @@ Reference websites:
     </td>
     <td>
 		Gegeven in de opgave.
+		
+		Alternatief met PIN uitleg: <a href="https://einstronic.com/product/hy-s301-8-channel-line-tracking-sensor-module/">HY-S301</a><br>
 	</td>
     <td>
 		<a href="http://www.mjkdz.com/mjkdz/products/18365968.html">Fabrikant website</a><br>
@@ -541,8 +551,15 @@ Reference websites:
 
 ## Elektrisch Schema
 
-<img src="./pictures/" width="100%"><br>
-<a href="./elektrisch_schema.sch">Schematic File</a><br>
+### Sturingsschakeling
+
+<img src="./pictures/diagrams/sturingsschakeling_schema.png" width="100%"><br>
+<a href=".//pictures/diagrams/sturingsschakeling_schema.fsch">Schematic File</a><br>
+
+### Sensorenschakeling
+
+<img src="./pictures/diagrams/sensorenschakeling.png" width="100%"><br>
+<a href=".//pictures/diagrams/sensorenschakeling.fsch">Schematic File</a><br>
 
 ---
 

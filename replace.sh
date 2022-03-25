@@ -8,10 +8,10 @@ cd docs
 
 ## MODIFY THESE WITH YOUR VALUES
 
-MY_TITLE='Foo Bar'
-MY_SUBTITLE='Foos the bar all the buzz'
-MY_USERNAME='MyGitHubUsername'
-MY_PROJECT_SLUG='foo-bar'
+MY_TITLE='Robotwagentje'
+MY_SUBTITLE='Smart Systems project'
+MY_USERNAME='BavoDebraekeleer'
+MY_PROJECT_SLUG='bavod-robotwagentje-analyse'
 
 ## DO NOT MODIFY AFTER THE LINE ABOVE
 

@@ -2,7 +2,7 @@
   Robotwagentje  <!-- TODO: Update title -->
 </h1>
 
-[![GitHub tags](https://img.shields.io/github/tag/MichaelCurrin/docsify-js-template.svg)](https://GitHub.com/MichaelCurrin/docsify-js-template/tags/) <!-- TODO: Update username and repo name -->
+[![GitHub tags](https://img.shields.io/github/tag/MyGitHubUsername/docsifyjs-template.svg)](https://GitHub.com/MyGitHubUsername/docsifyjs-template/tags/) <!-- TODO: Update username and repo name -->
 
 > Project voor Smart Systems
 > Elektronica-ICT, major Internet of Things
