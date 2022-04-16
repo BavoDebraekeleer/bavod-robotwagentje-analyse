@@ -231,9 +231,9 @@ Reference websites:
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
 		 <a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a><br>
-		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set">JST-HX stekkers set</a><br>
 	</td>
-    <td>
+    	<td>
 		<a href="./datasheets/OEL_Display_Module_SJY-2864KSWPG01.pdf">OLED Module Datasheet</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-blauw">Winkel TinyTronics</a><br>
 		<a href="https://github.com/olikraus/u8g2">Bibliotheek: U8g2</a><br>
@@ -437,7 +437,7 @@ Reference websites:
     </td>
     <td>
 		Om de USB interface ook te kunnen gebruiken voor de ESP32, die logische niveaus heeft van 3.3 V ipv 5 V, is er een level shifter nodig.
-		De UART verbinding kan ook gebruikt worden om met andere toestellen te communiceren met logische niveaus van 1.1 tot 5.5 V.
+		De UART verbinding kan ook gebruikt worden om met andere toestellen te communiceren met logische niveaus van 5 V.
     </td>
     <td>
 		<a href="./datasheets/Level_Shifter_TXU0204QPWRQ1.pdf">Datasheet</a><br>
