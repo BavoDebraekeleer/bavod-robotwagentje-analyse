@@ -418,6 +418,32 @@ Reference websites:
 		<a href="https://www.digikey.be/en/products/detail/FT232RL-REEL/768-1007-6-ND/1836408?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
 	</td>
 </tr>
+<tr>
+    <td>TXU0204QPWRQ1 Level Shifter</td>
+    <td>
+        <ul>
+            	<li><b>4 bit Fixed Direction Voltage Level Translator</b></li>
+		<li>Package: TSSOP-14 SMD/SMT</li>
+		<li>V<sub>cc</sub> = 1.08 - 5.5 V</li>
+		<li>I<sub>operationeel</sub> = 6 uA</li>
+		<li>Signaalvertraging 96 ns</li>
+            	<li>Aantal kanalen: 4 channel</li>
+            	<li>Push-pull level shifting: UART, SPI, JTAG</li>
+		<li>Uitgangstype: 3-State</li>
+		<li>Datasnelheid: 200 Mb/s
+		<li><i>Eenheidsprijs: ~€0,42 - 0,94</i></li>
+		<li><i>Lead time: 9 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Om de USB interface ook te kunnen gebruiken voor de ESP32, die logische niveaus heeft van 3.3 V ipv 5 V, is er een level shifter nodig.
+		De UART verbinding kan ook gebruikt worden om met andere toestellen te communiceren met logische niveaus van 1.1 tot 5.5 V.
+    </td>
+    <td>
+		<a href="./datasheets/Level_Shifter_TXU0204QPWRQ1.pdf">Datasheet</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Texas-Instruments/TXU0204QPWRQ1?qs=QNEnbhJQKvbo%252BW7%2Fo1U3Qg%3D%3D">Winkel Mouser</a>
+	</td>
+</tr>
 </table>
 
 ---
