@@ -50,6 +50,7 @@ De vereisten zijn omschreven in de To-Be Situatie.
 
 Dit is de hoofd PCB.
 
+ - ESP32-WROOM-32 microcontroller zelf integreren in PCB, zie Schematic Checklist in Hardware Design Guidelines
  - 2x UART connectoren
  - 3x I²C connectoren
  - Voltage regulator LDL1117 SMD
@@ -62,7 +63,6 @@ Dit is de hoofd PCB.
 	- Prijs < €1
 	- EMK beveiligingsdiode in tegen polariteit. Misschien reeds aanwezig op IC. Best altijd extra diode bij plaatsen voor de zekerheid.
  - OLED-scherm met I²C-sturing op PCB
- - ESP32 WROOM DevKit module, zie Schematic Checklist in Hardware Design Guidelines
  - Mounting drill holes, voor bevestiging op wagentje
  - Batterij aansluiting (GND, VCC)
 
@@ -71,6 +71,7 @@ Dit is de hoofd PCB.
 
 Op dochter PCB bordje.
 
+ - ATMega328p
  - Ultrasoon + IR afstandssensoren
  - 8 channel IR Linetracker
 
@@ -133,18 +134,18 @@ Reference websites:
     <td>ESP32-WROOM-32</td>
     <td>
         <ul>
-            <li><b>ESP32 microcontroller</b></li>
-			<li>Core: ESP32-D0WD</li>
-			<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
-			<li>Crystal: 40 MHz</li>
-            <li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
-            <li>I<sub>operating</sub> = 80 mA</li>
-			<li>I<sub>min delivered by power supply</sub> = 500 mA</li>
-			<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
-			<li>On-chip sensor: Hall sensor</li>
-			<li>Operating temperature: -40°C ~ +85°C</li>
-			<li><i>Eenheidsprijs: €4,68</i></li>
-			<li><i>Lead time: 10 weken (op voorraad)</i></li>
+            	<li><b>ESP32 microcontroller</b></li>
+		<li>Core: ESP32-D0WD</li>
+		<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
+		<li>Crystal: 40 MHz</li>
+            	<li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
+            	<li>I<sub>operating</sub> = 80 mA</li>
+		<li>I<sub>min delivered by power supply</sub> = 500 mA</li>
+		<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
+		<li>On-chip sensor: Hall sensor</li>
+		<li>Operating temperature: -40°C ~ +85°C</li>
+		<li><i>Eenheidsprijs: €4,68</i></li>
+		<li><i>Lead time: 10 weken (op voorraad)</i></li>
         </ul>
     </td>
 	<td>
@@ -182,16 +183,16 @@ Reference websites:
     <td>LA6583MC-AH</td>
     <td>
         <ul>
-            <li><b>Motor driver</b></li>
-			<li>Single Phase Driver With Hall Sensor Method (no Speed Control)</li>
-			<li>SMD IC</li>
-			<li>Output Configuration: Half Bridge, 2 outputs</li>
-            <li>V<sub>cc</sub> = 2.8 - 14 V</li>
-			<li>V<sub>cc max</sub> = 15 V
-			<li>I<sub>cc drive</sub> = 4 - 6 - 9 mA
-            <li>I<sub>OUT max</sub> = 800 mA</li>
-			<li><i>Eenheidsprijs: 0,526€</i></li>
-			<li><i>Lead time: onbekend (op voorraad)</i></li>
+            	<li><b>Motor driver</b></li>
+		<li>Single Phase Driver With Hall Sensor Method (no Speed Control)</li>
+		<li>SMD IC</li>
+		<li>Output Configuration: Half Bridge, 2 outputs</li>
+            	<li>V<sub>cc</sub> = 2.8 - 14 V</li>
+		<li>V<sub>cc max</sub> = 15 V
+		<li>I<sub>cc drive</sub> = 4 - 6 - 9 mA
+            	<li>I<sub>OUT max</sub> = 800 mA</li>
+		<li><i>Eenheidsprijs: 0,526€</i></li>
+		<li><i>Lead time: onbekend (op voorraad)</i></li>
         </ul>
     </td>
     <td>
@@ -210,16 +211,16 @@ Reference websites:
     <td>Merkloos OLED 0.96" SPI</td>
     <td>
         <ul>
-            <li><b>0.96" OLED Display 128x64</b></li>
-            <li>V<sub>cc</sub> = 3.3 - 5 V</li>
-            <li>I<sub>cc</sub> = 9 - 15 mA</li>
-			<li>Controller: SSD1315</li>
-			<li>Comm protocol: SPI of I²C</li>
-			<li>Connector: 7 PIN's</li>
-			<li>Afmetingen: 27.8 x 27.3 x 4.3 mm</li>
-			<li>Drill holes: 2 mm diameter, ~1 mm van de rand
-			<li><i>Eenheidsprijs: €4,60 - €7,00</i></li>
-			<li><i>Lead time: </i></li>
+		<li><b>0.96" OLED Display 128x64</b></li>
+		<li>V<sub>cc</sub> = 3.3 - 5 V</li>
+		<li>I<sub>cc</sub> = 9 - 15 mA</li>
+		<li>Controller: SSD1315</li>
+		<li>Comm protocol: SPI of I²C</li>
+		<li>Connector: 7 PIN's</li>
+		<li>Afmetingen: 27.8 x 27.3 x 4.3 mm</li>
+		<li>Drill holes: 2 mm diameter, ~1 mm van de rand
+		<li><i>Eenheidsprijs: €4,60 - €7,00</i></li>
+		<li><i>Lead time: </i></li>
         </ul>
     </td>
     <td>
@@ -268,15 +269,15 @@ Reference websites:
     <td>Conrad Energy LiPo accupack</td>
     <td>
         <ul>
-            <li><b>LiPo softcase accupack</b></li>
-            <li>V<sub>nomonaal</sub> = 7.4 V</li>
-            <li>I<sub>nominaal</sub> =  1200 mAh</li>
-			<li>Aantal cellen: 2</li>
-			<li>Belastbaarheid: 20 C</li>
-			<li>Aansluiting: XT60, XH-balancer</li>
-			<li>Afmetingen: 112 x 35 x 19 mm
-			<li><i>Eenheidsprijs: €16,49</i></li>
-			<li><i>Lead time: onbekend (op voorraad)</i></li>
+            	<li><b>LiPo softcase accupack</b></li>
+            	<li>V<sub>nomonaal</sub> = 7.4 V</li>
+            	<li>I<sub>nominaal</sub> =  1200 mAh</li>
+		<li>Aantal cellen: 2</li>
+		<li>Belastbaarheid: 20 C</li>
+		<li>Aansluiting: XT60, XH-balancer</li>
+		<li>Afmetingen: 112 x 35 x 19 mm
+		<li><i>Eenheidsprijs: €16,49</i></li>
+		<li><i>Lead time: onbekend (op voorraad)</i></li>
         </ul>
     </td>
     <td>
@@ -291,20 +292,20 @@ Reference websites:
     <td>LDL1117S50R</td>
     <td>
         <ul>
-            <li><b>Voltage Regulator 5 V</b></li>
-			<li>Package: SOT223 SMD</li>
-			<li>V<sub>output</sub> = 5 V
-            <li>V<sub>input</sub> = 2.5 - 18 V</li>
-            <li>I<sub>output</sub> = 1.2 A</li>
-			<li><i>Eenheidsprijs: €0,56</i></li>
-			<li><i>Lead time: 52 weken (lage voorraad)</i></li>
+            	<li><b>Voltage Regulator 5 V</b></li>
+		<li>Package: SOT223 SMD</li>
+		<li>V<sub>output</sub> = 5 V
+            	<li>V<sub>input</sub> = 2.5 - 18 V</li>
+            	<li>I<sub>output</sub> = 1.2 A</li>
+		<li><i>Eenheidsprijs: €0,56</i></li>
+		<li><i>Lead time: 52 weken (lage voorraad)</i></li>
         </ul>
     </td>
     <td>
 		Eenvoudige en goedkope LDO regulator.
 		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.
 		Alternatief voorbeeld: <a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Micrel/MIC5211-LXYM6-TR?qs=U6T8BxXiZAWZW72McTiFRQ%3D%3D>MIC5211-LXYM6-TR</a><br>
-	</td>
+    </td>
     <td>
 		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
 		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
@@ -316,13 +317,13 @@ Reference websites:
     <td>LDL1117S33R</td>
     <td>
         <ul>
-            <li><b>Voltage Regulator</b></li>
-			<li>Package: SOT-223 SMD</li>
-			<li>V<sub>output</sub> = 5 V
-            <li>V<sub>input</sub> = 2.5 - 18 V</li>
-            <li>I<sub>output</sub> = 1.2 A</li>
-			<li><i>Eenheidsprijs: €0,56</i></li>
-			<li><i>Lead time: 52 weken (op voorraad)</i></li>
+            	<li><b>Voltage Regulator</b></li>
+		<li>Package: SOT-223 SMD</li>
+		<li>V<sub>output</sub> = 5 V
+            	<li>V<sub>input</sub> = 2.5 - 18 V</li>
+            	<li>I<sub>output</sub> = 1.2 A</li>
+		<li><i>Eenheidsprijs: €0,56</i></li>
+		<li><i>Lead time: 52 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
@@ -387,48 +388,61 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
-    <td>Arduino Nano</td>
+    <td>ATMega328p-AN</td>
     <td>
         <ul>
-            <li><b>Arduino Nano</b></li>
-			<li>Core: ATMega328p</li>
-			<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
-			<li>Clock speed: 16 MHz</li>
+            <li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
             <li>V<sub>cc</sub> = 5 V</li>
             <li>V<sub>max</sub> = 6 - 20 V</li>
-			<li>I<sub>per I/O pin</sub> = 40 mA</li>
-			<li>I<sub>3V3 I/O pin</sub> = 50 mA</li>
-			<li><i>Eenheidsprijs: €18,00</i></li>
-			<li><i>Lead time: Fabrikant afhankelijk (op voorraad)</i></li>
+	    <li>I<sub>per I/O pin</sub> = 40 mA</li>
+	    <li>I<sub>3V3 I/O pin</sub> = 50 mA</li>
+	    <li><i>Eenheidsprijs: ~ €3,00</i></li>
+	    <li><i>Lead time: 76 weken (niet op voorraad)</i></li>
         </ul>
     </td>
-	<td>
+    <td>
 		De sensoren moeten op een apart bordje komen zodat de line tracker dicht tegen de grond zit.
 		Omdat hiervoor zeer veel verbindingen vereist zijn is het eenvoudiger om een extra microcontroller te voorzien.
 		Op die manier is er maar één enkele I²C verbinding nodig tussen de twee bordjes.
-		Er wordt hier gekozen voor een Arduino Nano omdat het gaat over een toepassing dat gebruikt moet kunnen worden door eerstejaars studenten.
-		
-		Een alternatief zou zijn de ATMega328p te embedden in de PCB in plaats van pin headers voor een Arduino Nano.
-		Dan moet er ook nog een <a href="https://be.farnell.com/multicomp/hc49sm-16-30-50-60-16-atf/crystal-hc-49-4hsmx-16-0mhz/dp/1667017RL">kristal</a> bij op.
-	</td>
+		Er wordt hier gekozen om een ATMega328p te embedden in de PCB zodat een vergelijkbare schakeling aan de Arduino Nano wordt bekomen.
+		Iets waarmee studenten reeds vertrouwd zijn en een goede oefening.
+    </td>
     <td>
-		<a href="./datasheets/Arduino_Nano.pdf">Datasheet Arduino Nano</a><br>
 		<a href="./datasheets/ATMega328p.pdf">Datasheet ATMega328p</a><br>
-		<a href="https://docs.arduino.cc/hardware/nano">Officiële documentatie</a><br>
+		<a href="./datasheets/Arduino_Nano.pdf">Datasheet Arduino Nano</a><br>
+		<a href="https://docs.arduino.cc/hardware/nano">Officiële documentatie Arduino Nano</a><br>
 		<a href="https://store.arduino.cc/products/arduino-nano">Winkel Arduino</a><br>
-		<a href="https://be.farnell.com/arduino/a000005/arduino-nano-evaluation-board/dp/1848691">Winkel Farnell</a><br>
+		<a href="https://octopart.com/search?q=ATMega328p-a&currency=USD&specs=0">Winkels</a><br>
 	</td>
+</tr>
+<tr>
+    <td>Crystal HC49SM-16-30-50-60-16-ATF</td>
+    <td>
+        <ul>
+	    <li>Frequency nominal: 16 MHz</li>
+            <li>Frequency stability: 50 ppm</li>
+            <li>Load capacitance: 16 pF</li>
+	    <li>Crystal case: SMD, 11.4 x 4.65 mm</li>
+	    <li><i>Eenheidsprijs: €0,284</i></li>
+	    <li><i>Lead time: onbekend (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>SMD crystal voor de ATMega.</td>
+    <td>
+		<a href="./datasheets/Crystal_HC49SM_1667017.pdf">Datasheet</a><br>
+		<a href="https://be.farnell.com/multicomp/hc49sm-16-30-50-60-16-atf/crystal-hc-49-4hsmx-16-0mhz/dp/1667017RL">Winkel Farnell</a>
+    </td>
 </tr>
 <tr>
     <td>PCF8574</td>
     <td>
-        <ul>
-            <li><b>Remote 8-bit I/O Expander I²C</b></li>
-            <li>V<sub>cc</sub> = 2.5 - 6 V</li>
-            <li>I<sub>cc Operating</sub> = 40 - 100 μA</li>
-			<li>I<sub>cc Standby</sub> = 2.5 - 10 μA</li>
-			<li><i>Eenheidsprijs: €</i></li>
-			<li><i>Lead time: </i></li>
+	<ul>
+		<li><b>Remote 8-bit I/O Expander I²C</b></li>
+		<li>V<sub>cc</sub> = 2.5 - 6 V</li>
+		<li>I<sub>cc Operating</sub> = 40 - 100 μA</li>
+		<li>I<sub>cc Standby</sub> = 2.5 - 10 μA</li>
+		<li><i>Eenheidsprijs: €</i></li>
+		<li><i>Lead time: </i></li>
         </ul>
     </td>
     <td>
