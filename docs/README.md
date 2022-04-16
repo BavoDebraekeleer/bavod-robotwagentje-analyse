@@ -295,7 +295,8 @@ Reference websites:
     <td>
 		Eenvoudige en goedkope LDO regulator.
 		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.
-		Alternatief voorbeeld: <a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Micrel/MIC5211-LXYM6-TR?qs=U6T8BxXiZAWZW72McTiFRQ%3D%3D>MIC5211-LXYM6-TR</a><br>
+		Alternatief voorbeeld:
+		<a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Micrel/MIC5211-LXYM6-TR?qs=U6T8BxXiZAWZW72McTiFRQ%3D%3D>MIC5211-LXYM6-TR</a>
     </td>
     <td>
 		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
