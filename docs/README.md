@@ -155,10 +155,7 @@ Reference websites:
 		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
 		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
 		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
-		<a href="https://www.digikey.be/nl/products/detail/espressif-systems/ESP32-WROOM-32/8544298">Winkel Digi-Key</a>
-		<br>
-		<a href="https://www.bol.com/be/nl/p/esp-wroom-32-ontwikkelbord/9200000114634593/?Referrer=ADVNLGOO002013-G-137016892532-S-1080766724149-9200000114634593&gclid=CjwKCAjwoduRBhA4EiwACL5RP3gmvcCjgniShMIKJF6Tj-c8ILHCnZigB3Wc8GkKKFBQUkc2TnLEZBoC6nkQAvD_BwE">Winkel Bol.com Dev. Kit</a><br>
-		
+		<a href="https://www.digikey.be/nl/products/detail/espressif-systems/ESP32-WROOM-32/8544298">Winkel Digi-Key</a><br>
 		<a href="https://www.elektor.nl/wemos-lolin-esp32-oled-display-module-for-arduino"Alternatieve kit met OLED</a><br>
 	</td>
 </tr>
@@ -199,7 +196,6 @@ Reference websites:
 		Deze Motor Driver heeft twee outputs en wordt gebruikt om één motor aan te sturen in twee richtingen.
 		Voor twee motors zijn er dus twee nodig in de schakeling.
 		Een enkele IC om de twee motors aan te sturen komt veel duurder uit of zijn niet op voorraad.
-		
 		<a href="https://www.mouser.be/ProductDetail/Toshiba/TB6612FNGC8EL?qs=rsevcuukUAy2UalRuv4E%2FQ%3D%3D">Alternatief: TB6612FNG</a><br>
 	</td>
     <td>
@@ -234,9 +230,9 @@ Reference websites:
 		<a href="https://wiki.seeedstudio.com/Grove-OLED-Display-0.96-SSD1315/">Fabrikant product info</a><br>
 		
 		Enkele alternatieven van TinyTronics met I²C PIN connectors in meerdere formaten:
-		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit-i2c">0.96" 128x64 SSD1306 voor €7,00</a><br>
-		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
-		 - <a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit-i2c">0.96" 128x64 SSD1306 voor €7,00</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
 		 
 		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a><br>
