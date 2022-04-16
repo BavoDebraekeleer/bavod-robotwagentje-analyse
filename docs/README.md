@@ -302,31 +302,7 @@ Reference websites:
 		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
 		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
 		<a href="https://www.mouser.be/ProductDetail/STMicroelectronics/LDL1117S50R?qs=AQlKX63v8RsuN9BQFiVf%2Fg%3D%3D">Winkel Mouser</a><br>
-		<a href="https://www.avnet.com/shop/us/products/stmicroelectronics/ldl1117s50r-3074457345642528941?CMP=EMA_Octopart_inventoryfeed_VSE>Winkel AVNET (op voorraad)</a><br>
-	</td>
-</tr>
-<tr>
-    <td>LDL1117S33R</td>
-    <td>
-        <ul>
-            	<li><b>Voltage Regulator</b></li>
-		<li>Package: SOT-223 SMD</li>
-		<li>V<sub>output</sub> = 5 V</li>
-            	<li>V<sub>input</sub> = 2.5 - 18 V</li>
-            	<li>I<sub>output</sub> = 1.2 A</li>
-		<li><i>Eenheidsprijs: €0,56</i></li>
-		<li><i>Lead time: 52 weken (op voorraad)</i></li>
-        </ul>
-    </td>
-    <td>
-		Eenvoudige en goedkope LDO regulator.
-		Alternatieven die 3.3 en 5 V in één package doen hebben een lage I<sub>output</sub>.
-	</td>
-    <td>
-		<a href="./datasheets/LDL1117_algemeen.pdf">Datasheet algemeen</a><br>
-		<a href="./datasheets/LDL1117_SOT223_specific.pdf">Datasheet SOT223</a><br>
-		<a href="https://www.mouser.be/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D">Winkel Mouser</a><br>
-		<a href="https://uk.farnell.com/stmicroelectronics/ldl1117s33r/ldo-fixed-3-3v-1-2a-sot-223-3/dp/2729708?st=ldl1117s33r">Winkel Farnell</a><br>
+		<a href="https://www.avnet.com/shop/us/products/stmicroelectronics/ldl1117s50r-3074457345642528941?CMP=EMA_Octopart_inventoryfeed_VSE">Winkel AVNET (op voorraad)</a>
 	</td>
 </tr>
 <tr>
