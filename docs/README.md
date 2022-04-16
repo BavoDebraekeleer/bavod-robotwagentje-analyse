@@ -216,29 +216,24 @@ Reference websites:
 		<li>Afmetingen: 27.8 x 27.3 x 4.3 mm</li>
 		<li>Drill holes: 2 mm diameter, ~1 mm van de rand</li>
 		<li><i>Eenheidsprijs: €4,60 - €7,00</i></li>
-		<li><i>Lead time: </i></li>
+		<li><i>Lead time: onbekend (op voorraad)</i></li>
         </ul>
     </td>
     <td>
 		Er wordt hier gekozen voor een module omdat losse OLED displays moeilijk vindbaar zijn en/of duurder uitkomen, en meer werk zijn.
 		Deze merkloze verzie is op voorraad in het labo en kan werken op I²C mits kleine aanpassingen aan de PCB.
-		
 		I²C aansluitingen: D0 = SCL, D1 = SDA, DC & CS = GND, RST = Solderen
-		
 		Goedkoper alternatief: Seeed Studio Grove 104020208
 		<a href="https://www.distrelec.biz/en/ssd1315-grove-96-128-64-monochrome-oled-display-seeed-studio-104020208/p/30164993?utm_source=octoX&utm_medium=cse&utm_campaign=octo-feed&ext_cid=ceoctaqzzen-na">Winkel Distrelec</a><br>
 		<a href="https://wiki.seeedstudio.com/Grove-OLED-Display-0.96-SSD1315/">Fabrikant product info</a><br>
-		
 		Enkele alternatieven van TinyTronics met I²C PIN connectors in meerdere formaten:
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit-i2c">0.96" 128x64 SSD1306 voor €7,00</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
-		 
-		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a><br>
+		 <a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a><br>
 	</td>
     <td>
-		
 		<a href="./datasheets/OEL_Display_Module_SJY-2864KSWPG01.pdf">OLED Module Datasheet</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-blauw">Winkel TinyTronics</a><br>
 		<a href="https://github.com/olikraus/u8g2">Bibliotheek: U8g2</a><br>
@@ -351,7 +346,6 @@ Reference websites:
     <td>
 		Een N-channel MOSFET met lage R<sub>ds(on)</sub> op de negatieve voedingslijn geeft de beste batterij levensduur volgens onderzoek.
 		De DMG3414U heeft een lage threshold spanning zodat deze ook geleid bij lage spanningen, en een V<sub>ds</sub> en I<sub>d</sub> die hoog genoeg zijn zodat de MOSFET niet stuk gaat in deze schakeling met 7.2 V batterij.
-		
 		<a href="./datasheets/Polariteitsbeveiliging_dt94-8.pdf">Polariteitsbeveiliging onderzoek</a><br>
 		<a href="http://www.irf.com/technical-info/designtp/dt94-8.pdf">Web download (bron)</a><br>
 		<a href="https://www.elektormagazine.nl/magazine/elektor-199907/39665>Uitleg.</a><br>
@@ -401,11 +395,8 @@ Reference websites:
         </ul>
     </td>
     <td>
-		Om het testen en programmeren eenvoudiger te maken wordt er gekozen om ook een Mini USB poort te voorzien.
-		Deze kan 5V voeding voorzien en als aangesloten op een UART poort ook de microcontrollers programmeren zoals het is op de Arduino Nano.
-		Hiervoor is er ook het volgende component nodig, een USB naar UART IC.
-		
-		In addition there is also needed:
+		Dit component is nodig om de USB poort te verbinden met de microcontroller.
+		Verder zijn volgende componenten, naast weerstanden en condensatoren, vereist voor een correcte werking:
 		<ul>
             		<li>a Schottky Diode, like the <a href="https://octopart.com/ss1p3l-m3%2F84a-vishay-42865893?r=sp">SS1P3L</a> or <a href="https://octopart.com/mbr0520lt1g-onsemi-2933?r=sp">MBR0520LT1</a></li>
 			<li>a Fuse, like the <a href="https://octopart.com/mf-fsmf050x-2-bourns-10470804?r=sp">MFFSMF050</a></li>
@@ -529,13 +520,13 @@ Reference websites:
     <td>MJKDZ MIR-3.0Y</td>
     <td>
         <ul>
-            <li><b>8x IR Line Tracking Module</b></li>
-            <li>V<sub>cc</sub> = 3 - 5 V</li>
-            <li>I<sub>max</sub> = ? mA</li>
-			<li>Bereik (max. bij 5V) = 40 mm</li>
-			<li>Afmetingen LxB: 17 x 67 mm</li>
-			<li><i>Eenheidsprijs: €6,00</i></li>
-			<li><i>Lead time: onbekend (op voorraad)</i></li>
+            	<li><b>8x IR Line Tracking Module</b></li>
+            	<li>V<sub>cc</sub> = 3 - 5 V</li>
+            	<li>I<sub>max</sub> = ? mA</li>
+		<li>Bereik (max. bij 5V) = 40 mm</li>
+		<li>Afmetingen LxB: 17 x 67 mm</li>
+		<li><i>Eenheidsprijs: €6,00</i></li>
+		<li><i>Lead time: onbekend (op voorraad)</i></li>
         </ul>
     </td>
     <td>
