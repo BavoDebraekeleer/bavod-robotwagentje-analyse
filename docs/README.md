@@ -188,8 +188,8 @@ Reference websites:
 		<li>SMD IC</li>
 		<li>Output Configuration: Half Bridge, 2 outputs</li>
             	<li>V<sub>cc</sub> = 2.8 - 14 V</li>
-		<li>V<sub>cc max</sub> = 15 V
-		<li>I<sub>cc drive</sub> = 4 - 6 - 9 mA
+		<li>V<sub>cc max</sub> = 15 V</li>
+		<li>I<sub>cc drive</sub> = 4 - 6 - 9 mA</li>
             	<li>I<sub>OUT max</sub> = 800 mA</li>
 		<li><i>Eenheidsprijs: 0,526€</i></li>
 		<li><i>Lead time: onbekend (op voorraad)</i></li>
@@ -218,7 +218,7 @@ Reference websites:
 		<li>Comm protocol: SPI of I²C</li>
 		<li>Connector: 7 PIN's</li>
 		<li>Afmetingen: 27.8 x 27.3 x 4.3 mm</li>
-		<li>Drill holes: 2 mm diameter, ~1 mm van de rand
+		<li>Drill holes: 2 mm diameter, ~1 mm van de rand</li>
 		<li><i>Eenheidsprijs: €4,60 - €7,00</i></li>
 		<li><i>Lead time: </i></li>
         </ul>
@@ -275,7 +275,7 @@ Reference websites:
 		<li>Aantal cellen: 2</li>
 		<li>Belastbaarheid: 20 C</li>
 		<li>Aansluiting: XT60, XH-balancer</li>
-		<li>Afmetingen: 112 x 35 x 19 mm
+		<li>Afmetingen: 112 x 35 x 19 mm</li>
 		<li><i>Eenheidsprijs: €16,49</i></li>
 		<li><i>Lead time: onbekend (op voorraad)</i></li>
         </ul>
@@ -294,7 +294,7 @@ Reference websites:
         <ul>
             	<li><b>Voltage Regulator 5 V</b></li>
 		<li>Package: SOT223 SMD</li>
-		<li>V<sub>output</sub> = 5 V
+		<li>V<sub>output</sub> = 5 V</li>
             	<li>V<sub>input</sub> = 2.5 - 18 V</li>
             	<li>I<sub>output</sub> = 1.2 A</li>
 		<li><i>Eenheidsprijs: €0,56</i></li>
@@ -319,7 +319,7 @@ Reference websites:
         <ul>
             	<li><b>Voltage Regulator</b></li>
 		<li>Package: SOT-223 SMD</li>
-		<li>V<sub>output</sub> = 5 V
+		<li>V<sub>output</sub> = 5 V</li>
             	<li>V<sub>input</sub> = 2.5 - 18 V</li>
             	<li>I<sub>output</sub> = 1.2 A</li>
 		<li><i>Eenheidsprijs: €0,56</i></li>
@@ -341,15 +341,15 @@ Reference websites:
     <td>DMG3414U</td>
     <td>
         <ul>
-            <li><b>Polariteitsbeveiliging N-channel MOSFET</b></li>
-			<li>Package: SOT-23 SMD</li>
-            <li>V<sub>ds</sub> = 20 V</li>
-            <li>I<sub>d</sub> = 4.2 A</li>
-			<li>R<sub>ds(on)</sub> = 0.019 ohm</a><br>
-			<li>V<sub>gs(th)</sub> = 500 mV</li>
-			<li>P<sub>d</sub> = 780 mW</li>
-			<li><i>Eenheidsprijs: 0,72€</i></li>
-			<li><i>Lead time: 52 weken (op voorraad)</i></li>
+            	<li><b>Polariteitsbeveiliging N-channel MOSFET</b></li>
+		<li>Package: SOT-23 SMD</li>
+            	<li>V<sub>ds</sub> = 20 V</li>
+            	<li>I<sub>d</sub> = 4.2 A</li>
+		<li>R<sub>ds(on)</sub> = 0.019 ohm</li>
+		<li>V<sub>gs(th)</sub> = 500 mV</li>
+		<li>P<sub>d</sub> = 780 mW</li>
+		<li><i>Eenheidsprijs: 0,72€</i></li>
+		<li><i>Lead time: 52 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
@@ -364,6 +364,62 @@ Reference websites:
     <td>
 		<a href="./datasheets/DMG3414U_N-MOSFET.pdf">Datasheet</a><br>
 		<a href="https://nl.farnell.com/diodes-inc/dmg3414u/mosfet-n-ch-w-diode-20v-4-2a-sot23/dp/2061404?st=mosfet%20n%20smd">Winkel Farnell</a><br>
+	</td>
+</tr>
+<tr>
+    <td>Mini USB type B connector</td>
+    <td>
+        <ul>
+            	<li><b>SMD USB connector</b></li>
+		<li>Package: SMD/SMT</li>
+		<li>V<sub>nom</sub> = 30 V</li>
+		<li>I<sub>nom</sub> = 1 A</li>
+            	<li>Number of contacts: 5</li>
+            	<li>Isolatieweerstand: 100 MOhms</li>
+		<li><i>Eenheidsprijs: ~€1,00</i></li>
+		<li><i>Lead time: 32 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Om het testen en programmeren eenvoudiger te maken wordt er gekozen om ook een Mini USB poort te voorzien.
+		Deze kan 5V voeding voorzien en als aangesloten op een UART poort ook de microcontrollers programmeren zoals het is op de Arduino Nano.
+		Hiervoor is er ook het volgende component nodig, een USB Interface IC met USB naar UART Bridge.
+    </td>
+    <td>
+		<a href="./datasheets/molex_USB-Mini-B_SMDconnector.pdf">Datasheet</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Molex/67503-1020?qs=7zcQ9RRVJlhHWuXYKEhKMg%3D%3D">Winkel Mouser</a><br>
+	</td>
+</tr>
+<tr>
+    <td>FTDI FT232RL-REEL</td>
+    <td>
+        <ul>
+            	<li><b>USB Interface IC: USB naar UART Bridge</b></li>
+		<li>Package: SSOP-28 SMD/SMT</li>
+		<li>V<sub>cc</sub> = 3.3 - 5.25 V</li>
+		<li>I<sub>operationeel</sub> = 25 mA</li>
+            	<li>Standaard: USB 2.0</li>
+            	<li>Interfacetype: UART</li>
+		<li><i>Eenheidsprijs: ~€3,00 - 4,00</i></li>
+		<li><i>Lead time: onbekend (niet op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Om het testen en programmeren eenvoudiger te maken wordt er gekozen om ook een Mini USB poort te voorzien.
+		Deze kan 5V voeding voorzien en als aangesloten op een UART poort ook de microcontrollers programmeren zoals het is op de Arduino Nano.
+		Hiervoor is er ook het volgende component nodig, een USB naar UART IC.
+		
+		In addition there is also needed:
+		<ul>
+            		<li>a Schottky Diode, like the <a href="https://octopart.com/ss1p3l-m3%2F84a-vishay-42865893?r=sp">SS1P3L</a> or <a href="https://octopart.com/mbr0520lt1g-onsemi-2933?r=sp">MBR0520LT1</a></li>
+			<li>a Fuse, like the <a href="https://octopart.com/mf-fsmf050x-2-bourns-10470804?r=sp">MFFSMF050</a></li>
+        	</ul>
+    </td>
+    <td>
+		<a href="./datasheets/molex_USB-Mini-B_SMDconnector.pdf">Datasheet</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Molex/67503-1020?qs=7zcQ9RRVJlhHWuXYKEhKMg%3D%3D">Winkel Mouser</a><br>
+		<a href="https://uk.farnell.com/ftdi/ft232rl-reel/ic-usb-to-uart-smd-28ssop/dp/1146032?CMP=GRHB-OCTOPART#anchorTechnicalDOCS">Winkel Farnell</a><br>
+		<a href="https://www.digikey.be/en/products/detail/FT232RL-REEL/768-1007-6-ND/1836408?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
 	</td>
 </tr>
 </table>
@@ -480,8 +536,8 @@ Reference websites:
             <li><b>8x IR Line Tracking Module</b></li>
             <li>V<sub>cc</sub> = 3 - 5 V</li>
             <li>I<sub>max</sub> = ? mA</li>
-			<li>Bereik (max. bij 5V) = 40 mm
-			<li>Afmetingen LxB: 17 x 67 mm
+			<li>Bereik (max. bij 5V) = 40 mm</li>
+			<li>Afmetingen LxB: 17 x 67 mm</li>
 			<li><i>Eenheidsprijs: €6,00</i></li>
 			<li><i>Lead time: onbekend (op voorraad)</i></li>
         </ul>
@@ -499,13 +555,13 @@ Reference websites:
     <td>Sharp GP2Y0A21YK0F</td>
     <td>
         <ul>
-            <li><b>IR-afstandssensor</b></li>
-            <li>V<sub>cc</sub> = 4.5 - 5.5 V</li>
-            <li>I<sub>typ</sub> = 30 mA</li>
-			<li>Bereik: 50 - 800 mm
-			<li>Afmetingen: 29.5 x 13 x 13.5 mm
-			<li><i>Eenheidsprijs: €5,50 - 12,06</i></li>
-			<li><i>Lead time: 16 weken (op voorraad)</i></li>
+		<li><b>IR-afstandssensor</b></li>
+		<li>V<sub>cc</sub> = 4.5 - 5.5 V</li>
+		<li>I<sub>typ</sub> = 30 mA</li>
+		<li>Bereik: 50 - 800 mm</li>
+		<li>Afmetingen: 29.5 x 13 x 13.5 mm</li>
+		<li><i>Eenheidsprijs: €5,50 - 12,06</i></li>
+		<li><i>Lead time: 16 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
@@ -523,15 +579,15 @@ Reference websites:
     <td>HC-SR04</td>
     <td>
         <ul>
-            <li><b>Ultrasoon afstandssensor</b></li>
-            <li>V<sub>cc</sub> = 5 V</li>
-            <li>I<sub>cc</sub> = <2 - 15 mA</li>
-			<li>Bereik: 20 - 4500 mm
-			<li>Resolutie: 3 mm
-			<li>Sensor hoek: <15°
-			<li>Ultrasone freq.: 40 kHz
-			<li><i>Eenheidsprijs: €3,00 - 7,21</i></li>
-			<li><i>Lead time: 16 weken (op voorraad)</i></li>
+           	<li><b>Ultrasoon afstandssensor</b></li>
+           	<li>V<sub>cc</sub> = 5 V</li>
+           	<li>I<sub>cc</sub> = <2 - 15 mA</li>
+		<li>Bereik: 20 - 4500 mm</li>
+		<li>Resolutie: 3 mm</li>
+		<li>Sensor hoek: <15°</li>
+		<li>Ultrasone freq.: 40 kHz</li>
+		<li><i>Eenheidsprijs: €3,00 - 7,21</i></li>
+		<li><i>Lead time: 16 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
