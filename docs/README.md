@@ -638,13 +638,19 @@ Reference websites:
 
 ### Sturingsschakeling
 
-<img src="./pictures/diagrams/sturingsschakeling_schema.png" width="100%"><br>
-<a href=".//pictures/diagrams/sturingsschakeling_schema.fsch">Schematic File</a><br>
+<img src="./pictures/pcb/sturingsschakeling_schema.png" width="100%"><br>
+<a href="./pictures/pcb/sturingsschakeling_schema.fsch">Schematic File</a><br>
 
 ### Sensorenschakeling
 
-<img src="./pictures/diagrams/sensorenschakeling.png" width="100%"><br>
-<a href=".//pictures/diagrams/sensorenschakeling.fsch">Schematic File</a><br>
+<img src="./pictures/pcb/Sensorschakeling_PCB_schematic.png" width="100%"><br>
+<a href="./pictures/pcb/Sensorenschakeling_schema_v2.fsch">Schematic File</a><br>
+
+<img src="./pictures/pcb/Sensorschakeling_PCB_layout.png" width="20%">
+<img src="./pictures/pcb/Sensorschakeling_PCB_3D-top.png" width="20%">
+<img src="./pictures/pcb/Sensorschakeling_PCB_3D-bottom.png" width="20%">
+<img src="./pictures/pcb/Sensorschakeling_PCB_3D-pers.png" width="20%">
+<img src="./pictures/pcb/Sensorschakeling_PCB_3D-side.png" width="20%">
 
 ---
 
