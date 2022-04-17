@@ -409,7 +409,7 @@ Reference websites:
 		<ul>
             		<li>Schottky Diode: <a href="https://octopart.com/ss1p3l-m3%2F84a-vishay-42865893?r=sp">SS1P3L</a> of <a href="https://octopart.com/mbr0520lt1g-onsemi-2933?r=sp">MBR0520LT1</a></li>
 			<li>Fuse/zekering: <a href="https://octopart.com/mf-fsmf050x-2-bourns-10470804?r=sp">MFFSMF050</a></li>
-			<li>Reset knop: <a href="https://eu.mouser.com/ProductDetail/CK/PTS636-SK50-SMTR-LFS?qs=vLWxofP3U2y5oRNZdHfrFw%3D%3D">PTS363</a>
+			<li>Reset knop: <a href="https://eu.mouser.com/ProductDetail/CK/PTS636-SK50-SMTR-LFS?qs=vLWxofP3U2y5oRNZdHfrFw%3D%3D">PTS363</a> of <a href="https://eu.mouser.com/ProductDetail/Panasonic/EVQ-P2F02K?qs=WwqriLBepZsV0QucKJ89rg%3D%3D">EVQ-P2F02K</a>
         	</ul>
     </td>
     <td>
