@@ -99,7 +99,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Blokschema
 
-<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764521692424298" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764523376607643" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 <a href="./pictures/diagrams/blokschema.jpg">Blokschema afbeelding</a><br>
 
 
