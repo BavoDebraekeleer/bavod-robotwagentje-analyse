@@ -100,7 +100,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 ## Blokschema
 
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764523376607643" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/blokschema.jpg">Blokschema afbeelding</a><br>
+<a href="./pictures/diagrams/blokschema_v2.jpg">Blokschema afbeelding</a><br>
 
 
 ---
@@ -231,9 +231,9 @@ Reference websites:
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.3-inch-oled-display-128*64-pixels-wit-i2c">1.3" 128x64 SSH1106 voor €8,00</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/1.5-inch-oled-display-128*128-pixels-wit-i2c">1.5" 128x128 SSD1327 voor €10,00</a><br>
 		 <a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/jst-compatible/wemos-i2c-kabel-sh1.0-4p-10cm">JST 4P kabel I²C</a><br>
-		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set>JST-HX stekkers set</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/connectoren/jst-compatible/jst-xh-krimpstekker-en-behuizing-set">JST-HX stekkers set</a><br>
 	</td>
-    <td>
+    	<td>
 		<a href="./datasheets/OEL_Display_Module_SJY-2864KSWPG01.pdf">OLED Module Datasheet</a><br>
 		<a href="https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-blauw">Winkel TinyTronics</a><br>
 		<a href="https://github.com/olikraus/u8g2">Bibliotheek: U8g2</a><br>
@@ -407,8 +407,9 @@ Reference websites:
 		Dit component is nodig om de USB poort te verbinden met de microcontroller.
 		Verder zijn volgende componenten, naast weerstanden en condensatoren, vereist voor een correcte werking:
 		<ul>
-            		<li>a Schottky Diode, like the <a href="https://octopart.com/ss1p3l-m3%2F84a-vishay-42865893?r=sp">SS1P3L</a> or <a href="https://octopart.com/mbr0520lt1g-onsemi-2933?r=sp">MBR0520LT1</a></li>
-			<li>a Fuse, like the <a href="https://octopart.com/mf-fsmf050x-2-bourns-10470804?r=sp">MFFSMF050</a></li>
+            		<li>Schottky Diode: <a href="https://octopart.com/ss1p3l-m3%2F84a-vishay-42865893?r=sp">SS1P3L</a> of <a href="https://octopart.com/mbr0520lt1g-onsemi-2933?r=sp">MBR0520LT1</a></li>
+			<li>Fuse/zekering: <a href="https://octopart.com/mf-fsmf050x-2-bourns-10470804?r=sp">MFFSMF050</a></li>
+			<li>Reset knop: <a href="https://eu.mouser.com/ProductDetail/CK/PTS636-SK50-SMTR-LFS?qs=vLWxofP3U2y5oRNZdHfrFw%3D%3D">PTS363</a>
         	</ul>
     </td>
     <td>
@@ -416,6 +417,32 @@ Reference websites:
 		<a href="https://eu.mouser.com/ProductDetail/Molex/67503-1020?qs=7zcQ9RRVJlhHWuXYKEhKMg%3D%3D">Winkel Mouser</a><br>
 		<a href="https://uk.farnell.com/ftdi/ft232rl-reel/ic-usb-to-uart-smd-28ssop/dp/1146032?CMP=GRHB-OCTOPART#anchorTechnicalDOCS">Winkel Farnell</a><br>
 		<a href="https://www.digikey.be/en/products/detail/FT232RL-REEL/768-1007-6-ND/1836408?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
+	</td>
+</tr>
+<tr>
+    <td>TXU0204QPWRQ1 Level Shifter</td>
+    <td>
+        <ul>
+            	<li><b>4 bit Fixed Direction Voltage Level Translator</b></li>
+		<li>Package: TSSOP-14 SMD/SMT</li>
+		<li>V<sub>cc</sub> = 1.08 - 5.5 V</li>
+		<li>I<sub>operationeel</sub> = 6 uA</li>
+		<li>Signaalvertraging 96 ns</li>
+            	<li>Aantal kanalen: 4 channel</li>
+            	<li>Push-pull level shifting: UART, SPI, JTAG</li>
+		<li>Uitgangstype: 3-State</li>
+		<li>Datasnelheid: 200 Mb/s
+		<li><i>Eenheidsprijs: ~€0,42 - 0,94</i></li>
+		<li><i>Lead time: 9 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Om de USB interface ook te kunnen gebruiken voor de ESP32, die logische niveaus heeft van 3.3 V ipv 5 V, is er een level shifter nodig.
+		De UART verbinding kan ook gebruikt worden om met andere toestellen te communiceren met logische niveaus van 5 V.
+    </td>
+    <td>
+		<a href="./datasheets/Level_Shifter_TXU0204QPWRQ1.pdf">Datasheet</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Texas-Instruments/TXU0204QPWRQ1?qs=QNEnbhJQKvbo%252BW7%2Fo1U3Qg%3D%3D">Winkel Mouser</a>
 	</td>
 </tr>
 </table>
@@ -580,12 +607,12 @@ Reference websites:
            	<li><b>Ultrasoon afstandssensor</b></li>
            	<li>V<sub>cc</sub> = 5 V</li>
            	<li>I<sub>cc</sub> = <2 - 15 mA</li>
-		<li>Bereik: 20 - 4500 mm</li>
-		<li>Resolutie: 3 mm</li>
-		<li>Sensor hoek: <15°</li>
-		<li>Ultrasone freq.: 40 kHz</li>
-		<li><i>Eenheidsprijs: €3,00 - 7,21</i></li>
-		<li><i>Lead time: 16 weken (op voorraad)</i></li>
+			<li>Bereik: 20 - 4500 mm</li>
+			<li>Resolutie: 3 mm</li>
+			<li>Sensor hoek: <15°</li>
+			<li>Ultrasone freq.: 40 kHz</li>
+			<li><i>Eenheidsprijs: €3,00 - 7,21</i></li>
+			<li><i>Lead time: 16 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
