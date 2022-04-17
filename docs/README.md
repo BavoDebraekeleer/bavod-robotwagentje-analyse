@@ -607,12 +607,12 @@ Reference websites:
            	<li><b>Ultrasoon afstandssensor</b></li>
            	<li>V<sub>cc</sub> = 5 V</li>
            	<li>I<sub>cc</sub> = <2 - 15 mA</li>
-		<li>Bereik: 20 - 4500 mm</li>
-		<li>Resolutie: 3 mm</li>
-		<li>Sensor hoek: <15°</li>
-		<li>Ultrasone freq.: 40 kHz</li>
-		<li><i>Eenheidsprijs: €3,00 - 7,21</i></li>
-		<li><i>Lead time: 16 weken (op voorraad)</i></li>
+			<li>Bereik: 20 - 4500 mm</li>
+			<li>Resolutie: 3 mm</li>
+			<li>Sensor hoek: <15°</li>
+			<li>Ultrasone freq.: 40 kHz</li>
+			<li><i>Eenheidsprijs: €3,00 - 7,21</i></li>
+			<li><i>Lead time: 16 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
