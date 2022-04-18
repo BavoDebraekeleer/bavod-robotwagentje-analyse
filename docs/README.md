@@ -643,11 +643,11 @@ Reference websites:
 
 ### Sensorenschakeling
 
-<img src="./pictures/pcb/Sensorschakeling_PCB_schematic.png" width="100%"><br>
-<a href="./pictures/pcb/Sensorenschakeling_schema_v2.fsch">Schematic File</a><br>
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_schematic.png" width="100%"><br>
+<a href="./pictures/pcb/Sensorenschakeling_schema_v2.1.fsch">Schematic File</a><br>
 
-<img src="./pictures/pcb/Sensorschakeling_PCB_layout.png" width="36%"><img src="./pictures/pcb/Sensorschakeling_PCB_3D-top.png" width="32%"><img src="./pictures/pcb/Sensorschakeling_PCB_3D-bottom.png" width="32%">
-<img src="./pictures/pcb/Sensorschakeling_PCB_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCB_3D-side.png" width="30%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_layout.png" width="36%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-top.png" width="32%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-bottom.png" width="32%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-side.png" width="30%">
 
 ---
 
