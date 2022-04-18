@@ -638,8 +638,8 @@ Reference websites:
 
 ### Sturingsschakeling
 
-<img src="./pictures/pcb/Sturingsschakeling_PCBv1.0_schema.png" width="100%"><br>
-<a href="./pictures/pcb/Sturingsschakeling_schema_v1.0.fsch">Schematic File</a><br>
+<img src="./pictures/pcb/Sturingsschakeling_PCBv2.0_schema.png" width="100%"><br>
+<a href="./pictures/pcb/Sturingsschakeling_schema_v2.0.fsch">Schematic File</a><br>
 
 
 ### Sensorenschakeling
