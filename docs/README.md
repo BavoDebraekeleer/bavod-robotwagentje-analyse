@@ -131,6 +131,35 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
+    <td>ESP32-WROVER</td>
+    <td>
+        <ul>
+            	<li><b>ESP32 REV1 microcontroller</b></li>
+		<li>Core: ESP32-D0WDQ6</li>
+		<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
+		<li>PSRAM: 64Mbits</li>
+		<li>Crystal: 40 MHz</li>
+            	<li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
+            	<li>I<sub>operating</sub> = 80 mA</li>
+		<li>I<sub>min delivered by power supply</sub> = 500 mA</li>
+		<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
+		<li>On-chip sensor: Hall sensor</li>
+		<li>Operating temperature: -40°C ~ +85°C</li>
+		<li><i>Eenheidsprijs: €5,50</i></li>
+		<li><i>Lead time: onbekend (op voorraad)</i></li>
+        </ul>
+    </td>
+	<td>
+		ESP32 module die beschikbaar is in het labo.
+	</td>
+    <td>
+		<a href="./datasheets/esp32-wrover_datasheet_en-1223875.pdf">Datasheet Module</a><br>
+		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
+		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/communicatie-en-signalen/draadloos/wi-fi/modules/esp32-wrover-wifi-module-pcb-antenne-aansluiting">Winkel TinyTronics</a><br>
+	</td>
+</tr>
+<tr>
     <td>ESP32-WROOM-32</td>
     <td>
         <ul>
@@ -149,7 +178,7 @@ Reference websites:
         </ul>
     </td>
 	<td>
-		Gegeven in de opgave.
+		Alternatieve versie van de ESP32 module.
 	</td>
     <td>
 		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
