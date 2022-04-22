@@ -1,7 +1,7 @@
 # Robotwagentje
 
 Bavo Debraekeleer<br>
-Docent: Marc Smets<br>
+Docent: Marc Smets en Maarten Luyts<br>
 
 Smart Systems, major Internet of Things, Elektronica-ICT<br>
 AP Hogeschool<br>
@@ -413,10 +413,33 @@ Reference websites:
         	</ul>
     </td>
     <td>
-		<a href="./datasheets/molex_USB-Mini-B_SMDconnector.pdf">Datasheet</a><br>
+		<a href="./datasheets/DS_FT232R_USB-UART.pdf">Datasheet</a><br>
 		<a href="https://eu.mouser.com/ProductDetail/Molex/67503-1020?qs=7zcQ9RRVJlhHWuXYKEhKMg%3D%3D">Winkel Mouser</a><br>
 		<a href="https://uk.farnell.com/ftdi/ft232rl-reel/ic-usb-to-uart-smd-28ssop/dp/1146032?CMP=GRHB-OCTOPART#anchorTechnicalDOCS">Winkel Farnell</a><br>
 		<a href="https://www.digikey.be/en/products/detail/FT232RL-REEL/768-1007-6-ND/1836408?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
+	</td>
+</tr>
+<tr>
+    <td>CP2102N-A02-GQFN28R</td>
+    <td>
+        <ul>
+            	<li><b>USB Interface IC: USB naar UART Bridge</b></li>
+		<li>Package: QFN-28 SMD/SMT</li>
+		<li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
+		<li>I<sub>operationeel</sub> = 13.7 mA</li>
+            	<li>Standaard: USB 2.0</li>
+            	<li>Interfacetype: UART</li>
+		<li><i>Eenheidsprijs: ~€2,00</i></li>
+		<li><i>Lead time: 40 weken (niet op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Alternatieve USB interface die op voorraad is in het labo.
+    </td>
+    <td>
+		<a href="./datasheets/CP2102N-A02-GQFN28R.pdf">Datasheet</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN28R?qs=u16ybLDytRag4qKvSH3fTw%3D%3D">Winkel Mouser</a><br>
+		<a href="https://www.digikey.com/en/products/detail/CP2102N-A02-GQFN28R/336-5890-1-ND/9863483?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
 	</td>
 </tr>
 <tr>
