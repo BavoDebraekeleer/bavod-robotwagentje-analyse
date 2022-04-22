@@ -1,7 +1,7 @@
 # Robotwagentje
 
 Bavo Debraekeleer<br>
-Docent: Marc Smets<br>
+Docent: Marc Smets en Maarten Luyts<br>
 
 Smart Systems, major Internet of Things, Elektronica-ICT<br>
 AP Hogeschool<br>
@@ -131,6 +131,35 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
+    <td>ESP32-WROVER</td>
+    <td>
+        <ul>
+            	<li><b>ESP32 REV1 microcontroller</b></li>
+		<li>Core: ESP32-D0WDQ6</li>
+		<li>SPI flash: 4 MB, 32 Mbits, 3.3 V</li>
+		<li>PSRAM: 64Mbits</li>
+		<li>Crystal: 40 MHz</li>
+            	<li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
+            	<li>I<sub>operating</sub> = 80 mA</li>
+		<li>I<sub>min delivered by power supply</sub> = 500 mA</li>
+		<li>Module interfaces: SD card, UART, SPI, SDIO, I2C, LED PWM, Motor PWM, I2S, IR, pulse counter, GPIO, capacitive touch sensor, ADC, DAC, TWAI.</li>
+		<li>On-chip sensor: Hall sensor</li>
+		<li>Operating temperature: -40°C ~ +85°C</li>
+		<li><i>Eenheidsprijs: €5,50</i></li>
+		<li><i>Lead time: onbekend (op voorraad)</i></li>
+        </ul>
+    </td>
+	<td>
+		ESP32 module die beschikbaar is in het labo.
+	</td>
+    <td>
+		<a href="./datasheets/esp32-wrover_datasheet_en-1223875.pdf">Datasheet Module</a><br>
+		<a href="./datasheets/esp32_datasheet_en.pdf">Datasheet ESP32</a><br>
+		<a href="./datasheets/esp32_hardware_design_guidelines_en.pdf">Hardware Design Guidelines</a><br>
+		<a href="https://www.tinytronics.nl/shop/nl/communicatie-en-signalen/draadloos/wi-fi/modules/esp32-wrover-wifi-module-pcb-antenne-aansluiting">Winkel TinyTronics</a><br>
+	</td>
+</tr>
+<tr>
     <td>ESP32-WROOM-32</td>
     <td>
         <ul>
@@ -149,7 +178,7 @@ Reference websites:
         </ul>
     </td>
 	<td>
-		Gegeven in de opgave.
+		Alternatieve versie van de ESP32 module.
 	</td>
     <td>
 		<a href="./datasheets/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf">Datasheet Module</a><br>
@@ -413,10 +442,33 @@ Reference websites:
         	</ul>
     </td>
     <td>
-		<a href="./datasheets/molex_USB-Mini-B_SMDconnector.pdf">Datasheet</a><br>
+		<a href="./datasheets/DS_FT232R_USB-UART.pdf">Datasheet</a><br>
 		<a href="https://eu.mouser.com/ProductDetail/Molex/67503-1020?qs=7zcQ9RRVJlhHWuXYKEhKMg%3D%3D">Winkel Mouser</a><br>
 		<a href="https://uk.farnell.com/ftdi/ft232rl-reel/ic-usb-to-uart-smd-28ssop/dp/1146032?CMP=GRHB-OCTOPART#anchorTechnicalDOCS">Winkel Farnell</a><br>
 		<a href="https://www.digikey.be/en/products/detail/FT232RL-REEL/768-1007-6-ND/1836408?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
+	</td>
+</tr>
+<tr>
+    <td>CP2102N-A02-GQFN28R</td>
+    <td>
+        <ul>
+            	<li><b>USB Interface IC: USB naar UART Bridge</b></li>
+		<li>Package: QFN-28 SMD/SMT</li>
+		<li>V<sub>cc</sub> = 3.0 - 3.6 V</li>
+		<li>I<sub>operationeel</sub> = 13.7 mA</li>
+            	<li>Standaard: USB 2.0</li>
+            	<li>Interfacetype: UART</li>
+		<li><i>Eenheidsprijs: ~€2,00</i></li>
+		<li><i>Lead time: 40 weken (niet op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		Alternatieve USB interface die op voorraad is in het labo.
+    </td>
+    <td>
+		<a href="./datasheets/CP2102N-A02-GQFN28R.pdf">Datasheet</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN28R?qs=u16ybLDytRag4qKvSH3fTw%3D%3D">Winkel Mouser</a><br>
+		<a href="https://www.digikey.com/en/products/detail/CP2102N-A02-GQFN28R/336-5890-1-ND/9863483?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart">Winkel Digi-Key</a><br>
 	</td>
 </tr>
 <tr>
