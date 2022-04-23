@@ -690,8 +690,12 @@ Reference websites:
 
 ### Sturingsschakeling
 
-<img src="./pictures/pcb/Sturingsschakeling_PCBv2.0_schema.png" width="100%"><br>
-<a href="./pictures/pcb/Sturingsschakeling_schema_v2.0.fsch">Schematic File</a><br>
+<img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_schema.png" width="100%"><br>
+<a href="./pictures/pcb/Sturingsschakeling_schema_v3.0.fsch">Schematic File</a><br>
+
+
+<img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_layout.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_3D-side.png" width="30%">
 
 
 ### Sensorenschakeling
@@ -700,7 +704,8 @@ Reference websites:
 <a href="./pictures/pcb/Sensorenschakeling_schema_v2.1.fsch">Schematic File</a><br>
 
 
-<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-bottom.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-side.png" width="30%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-side.png" width="30%">
 
 
 ---
