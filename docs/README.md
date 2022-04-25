@@ -694,8 +694,8 @@ Reference websites:
 <a href="./pictures/pcb/Sturingsschakeling_schema_v3.1.fsch">Schematic File</a><br>
 
 
-<img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_layout.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-bottom.png" width="33%">
-<img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.0_3D-side.png" width="30%">
+<img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_layout.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-side.png" width="30%">
 
 
 ### Sensorenschakeling
