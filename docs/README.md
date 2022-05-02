@@ -1,6 +1,11 @@
 # Robotwagentje
 
 <img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%">
+<img src="./pictures/AP_logo_basis_rgb.png" width="50%">
+
+<br>
+<br>
+<br>
 
 Bavo Debraekeleer<br>
 Docent: Marc Smets en Maarten Luyts<br>
@@ -8,8 +13,6 @@ Docent: Marc Smets en Maarten Luyts<br>
 Smart Systems, major Internet of Things, Elektronica-ICT<br>
 AP Hogeschool<br>
 Academiejaar 2021-2022
-
-<img src="./pictures/AP_logo_basis_rgb.png" width="50%">
 
 <a href="https://bavodebraekeleer.github.io/bavod-robotwagentje-analyse/#/">Robotwagentje Analyse GitHub Pages</a><br>
 <a href="https://ap-it-gh.github.io/ssys-cursus/#/deliverables/analyse">Smart Systems GitHub Pages</a><br>
