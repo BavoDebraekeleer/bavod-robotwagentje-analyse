@@ -206,6 +206,31 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
+    <td>TC78H621FNG</td>
+    <td>
+        <ul>
+            	<li><b>	Stepping motor drivers</b></li>
+		<li>Full, Half step resolution / Phase inputs</li>
+		<li>2-phase bipolar stepper + full bridge driver</li>
+		<li>SMD IC met 2 drivers</li>
+		<li>Package: P-TSSOP16-0505-0.65-001</li>
+            	<li>V<sub>cc</sub> = 2.8 - 14 V</li>
+		<li>V<sub>OUT</sub> = 18 V</li>
+            	<li>I<sub>OUT</sub> = 1.1 A</li>
+		<li><i>Eenheidsprijs: 1,66 - 0,82€</i></li>
+		<li><i>Lead time: 26 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+	    	Motor driver aangegeven door docent als te gebruiken IC en op voorraad in het labo.
+	</td>
+    <td>
+		<a href="./datasheets/TC78H621FNG_TOSC-S-A0003869562-1.pdf">Datasheet</a><br>
+	    	<a href="https://toshiba.semicon-storage.com/ap-en/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TC78H621FNG.html">Website fabrikant</a><br>
+		<a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TC78H621FNG-EL/9351603">Winkel Digi-Key</a><br>
+	</td>
+</tr>
+<tr>
     <td>LA6583MC-AH</td>
     <td>
         <ul>
@@ -222,6 +247,7 @@ Reference websites:
         </ul>
     </td>
     <td>
+	    	Alternatieve Motor Driver als eerste voorgesteld door docent.
 		Deze Motor Driver heeft twee outputs en wordt gebruikt om één motor aan te sturen in twee richtingen.
 		Voor twee motors zijn er dus twee nodig in de schakeling.
 		Een enkele IC om de twee motors aan te sturen komt veel duurder uit of zijn niet op voorraad.
