@@ -805,7 +805,7 @@ Reference websites:
     <th>Data Out</th>
 </tr>
 <tr>
-    <th>ESP32-WROOM-32</th>
+    <th>ESP32</th>
     <td>
 		<li>Configuratie instellingen</li>
 		<li>Motor aansturing <b>WiFi</b></li>
@@ -842,7 +842,7 @@ Reference websites:
     <th>Data Out</th>
 </tr>
 <tr>
-    <th>Arduino Nano</th>
+    <th>ATMega328p</th>
     <td>
 		<li>Configuratie instellingen</li>
 		<li>Line Tracker data D1-D8</li>
