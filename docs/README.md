@@ -763,7 +763,7 @@ Reference websites:
 ---
 
 
-## Elektrisch Schema
+## Elektrische Schema's
 
 ### Sturingsschakeling
 
@@ -874,7 +874,7 @@ Reference websites:
 
 ---
 
-## Statediagram & Flowcharts
+## Statediagrams & Flowcharts
  
 ### Manuele bediening
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
