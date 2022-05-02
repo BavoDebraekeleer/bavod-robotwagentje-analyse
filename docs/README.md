@@ -1,6 +1,8 @@
 # Robotwagentje
 
 <img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%"><br>
+
+
 <img src="./pictures/AP_logo_basis_rgb.png" width="50%"><br>
 
 <br>
@@ -36,6 +38,10 @@ De vereisten zijn omschreven in de To-Be Situatie.
 
 <img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%">
 
+Grote PCB met enkel through hole componenten en screw terminals.
+
+Eigenschappen:
+ - Gebruik ESP32-WROOM-32 Dev. Kit
  - Voltage Regulator LM7805 through hole
  - Motord river SN754410 through hole + 2x 2 motor pins: 1A, 1B, 2A, 2B
  - 4x LED's: 1x rood, 2x geel, 1x groen
@@ -60,7 +66,8 @@ De vereisten zijn omschreven in de To-Be Situatie.
 
 Dit is de hoofd PCB.
 
- - ESP32-WROOM-32 microcontroller zelf integreren in PCB, zie Schematic Checklist in Hardware Design Guidelines
+ - ESP32-WROOM-32 microcontroller zelf integreren in PCB.
+ - SMD componenten gebruiken.
  - 2x UART connectoren
  - 3x I²C connectoren
  - Voltage regulator LDL1117 SMD
@@ -469,7 +476,7 @@ Reference websites:
     <td>
         <ul>
             	<li><b>USB-C USB2.0 connector</b></li>
-		<li>Package: SMD/SMT</li>
+		<li>Package: through hole</li>
 		<li>V<sub>rating</sub> = 20 V DC</li>
 		<li>I<sub>rating VBUS</sub> = 3.00 A</li>
 		<li>I<sub>rating GND</sub> = 4.25 A</li>
@@ -756,7 +763,7 @@ Reference websites:
 ---
 
 
-## Elektrisch Schema
+## Elektrische Schema's
 
 ### Sturingsschakeling
 
@@ -867,7 +874,7 @@ Reference websites:
 
 ---
 
-## Statediagram & Flowcharts
+## Statediagrams & Flowcharts
  
 ### Manuele bediening
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
