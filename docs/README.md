@@ -1,11 +1,15 @@
 # Robotwagentje
 
+<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%">
+
 Bavo Debraekeleer<br>
 Docent: Marc Smets en Maarten Luyts<br>
 
 Smart Systems, major Internet of Things, Elektronica-ICT<br>
 AP Hogeschool<br>
 Academiejaar 2021-2022
+
+<img src="./pictures/AP_logo_basis_rgb.png" width="50%">
 
 <a href="https://bavodebraekeleer.github.io/bavod-robotwagentje-analyse/#/">Robotwagentje Analyse GitHub Pages</a><br>
 <a href="https://ap-it-gh.github.io/ssys-cursus/#/deliverables/analyse">Smart Systems GitHub Pages</a><br>
@@ -91,6 +95,7 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 <a href="./pictures/diagrams/mindmap.jpg">Mindmap afbeelding</a><br>
+<img src="./pictures/diagrams/mindmap.jpg" width="100%"><br>
 
 
 ---
@@ -100,7 +105,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 ## Blokschema
 
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764523376607643" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/blokschema_v2.jpg">Blokschema afbeelding</a><br>
+<a href="./pictures/diagrams/blokschema_v3.1.jpg">Blokschema afbeelding</a><br>
+<img src="./pictures/diagrams/blokschema_v3.1.jpg" width="100%"><br>
 
 
 ---
