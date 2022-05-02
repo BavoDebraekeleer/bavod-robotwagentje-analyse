@@ -445,6 +445,29 @@ Reference websites:
 	</td>
 </tr>
 <tr>
+    <td>USB4085-GF-A</td>
+    <td>
+        <ul>
+            	<li><b>USB-C USB2.0 connector</b></li>
+		<li>Package: SMD/SMT</li>
+		<li>V<sub>rating</sub> = 20 V DC</li>
+		<li>I<sub>rating VBUS</sub> = 3.00 A</li>
+		<li>I<sub>rating GND</sub> = 4.25 A</li>
+		<li>I<sub>rating VCONN</sub> = 1.25 A</li>
+		<li>I<sub>rating other pins</sub> = 0.25 A</li>
+		<li><i>Eenheidsprijs: €0,92 - 0,64</i></li>
+		<li><i>Lead time: 16 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+		USB aansluiting op voorraad in het labo. Voordeel van future proofing met USB-C.
+    </td>
+    <td>
+		<a href="./datasheets/USB-C_2.0_USB4085-GF-A.pdf">Datasheet</a><br>
+		<a href="https://www.digikey.nl/nl/products/detail/gct/USB4085-GF-A/9859733">Winkel Digi-Key</a><br>
+	</td>
+</tr>
+<tr>
     <td>FTDI FT232RL-REEL</td>
     <td>
         <ul>
@@ -489,7 +512,7 @@ Reference websites:
         </ul>
     </td>
     <td>
-		Alternatieve USB interface die op voorraad is in het labo.
+		Alternatieve USB interface die op voorraad is in het labo en daarom gebruikt wordt.
     </td>
     <td>
 		<a href="./datasheets/CP2102N-A02-GQFN28R.pdf">Datasheet</a><br>
@@ -517,6 +540,7 @@ Reference websites:
     <td>
 		Om de USB interface ook te kunnen gebruiken voor de ESP32, die logische niveaus heeft van 3.3 V ipv 5 V, is er een level shifter nodig.
 		De UART verbinding kan ook gebruikt worden om met andere toestellen te communiceren met logische niveaus van 5 V.
+	    	Uiteindelijk niet gebruikt. Door alternatieve USB interface die op 3.3 V TTL werkt is er maar één opttionele level shifter meer nodig en deze wordt opgebouwd zonder IC.
     </td>
     <td>
 		<a href="./datasheets/Level_Shifter_TXU0204QPWRQ1.pdf">Datasheet</a><br>
