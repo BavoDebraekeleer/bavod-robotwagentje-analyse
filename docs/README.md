@@ -1,8 +1,11 @@
 # Robotwagentje
 
-<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%">
-<img src="./pictures/AP_logo_basis_rgb.png" width="50%">
+<img src="./pictures/as-is/robotwagen_as-is_total.jpg" width="50%"><br>
+<img src="./pictures/AP_logo_basis_rgb.png" width="50%"><br>
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -96,9 +99,12 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Mindmap
 
+### Interactieve Mindmap
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOER2lsE=/?pres=1&frameId=3458764521281290834" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/mindmap.jpg">Mindmap afbeelding</a><br>
-<img src="./pictures/diagrams/mindmap.jpg" width="100%"><br>
+
+### Mindmap afbeelding
+<img src="./pictures/diagrams/mindmap.jpg" alt="Mindmap afbeelding" width="100%"><br>
+<a href="./pictures/diagrams/mindmap.jpg">Minddmpa afbeelding openen.</a><br>
 
 
 ---
@@ -107,9 +113,12 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 
 ## Blokschema
 
+### Interactief Blokschema
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764523376607643" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<a href="./pictures/diagrams/blokschema_v3.1.jpg">Blokschema afbeelding</a><br>
-<img src="./pictures/diagrams/blokschema_v3.1.jpg" width="100%"><br>
+
+### Blokschema afbeelding
+<img src="./pictures/diagrams/blokschema_v3.1.jpg" alt="Blokschema afbeelding" width="100%"><br>
+<a href="./pictures/diagrams/blokschema_v3.1.jpg">Blokschema afbeelding openen.</a><br>
 
 
 ---
@@ -119,8 +128,10 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 Reference websites:
  - <a href="https://be.farnell.com/">Farnell</a><br>
  - <a href="https://www.mouser.be/">Mouser</a><br>
+ - <a href="https://www.digikey.be/">Digi-Key</a><br>
  - <a href="https://www.tinytronics.nl/shop/nl">TinyTronics</a><br>
  - <a href="https://octopart.com/">Octopart</a><br>
+ - <a href="https://componentsearchengine.com/">Component Search Engine</a><br>
 
 ### Hoofd PCB: Sturingsschakeling
 
@@ -788,25 +799,25 @@ Reference websites:
 </tr>
 <tr>
     <th>ESP32-WROOM-32</th>
-    <th>
-		Configuratie instellingen
-		Motor aansturing <b>WiFi</b>
-		Sensordata <b>I²C</b>
-	</th>
-    <th>
-		Feedback data <b>I²C</b>
-		2x motor aansturing <b>PWM</b>
-	</th>
+    <td>
+		<li>Configuratie instellingen</li>
+		<li>Motor aansturing <b>WiFi</b></li>
+		<li>Sensordata <b>I²C</b></li>
+	</td>
+    <td>
+		<li>Feedback data <b>I²C</b></li>
+		<li>2x motor aansturing <b>PWM</b></li>
+	</td>
 </tr>
 <tr>
-    <th>Motor Driver</th>
-    <th>Motor aansturing <b>PWM</b></th>
-    <th>N.V.T.</th>
+    <td>Motor Driver</td>
+    <td>Motor aansturing <b>PWM</b></td>
+    <td>N.V.T.</td>
 </tr>
 <tr>
-    <th>OLED Display</th>
-    <th>Feedback data <b>I²C</b></th>
-    <th>N.V.T.</th>
+    <td>OLED Display</td>
+    <td>Feedback data <b>I²C</b></td>
+    <td>N.V.T.</td>
 </tr>
 </table>
 
@@ -825,32 +836,32 @@ Reference websites:
 </tr>
 <tr>
     <th>Arduino Nano</th>
+    <td>
+		<li>Configuratie instellingen</li>
+		<li>Line Tracker data D1-D8</li>
+		<li>Ultrasoon sensor echo</li>
+		<li>IR-afstandssensor afstand als analoge spanning.</li>
+	</td>
     <th>
-		Configuratie instellingen
-		Line Tracker data D1-D8
-		Ultrasoon sensor echo
-		IR-afstandssensor afstand als analoge spanning.
-	</th>
-    <th>
-		Sensordata <b>I²C</b>
-		Line Tracker IR aan/uit
-		Ultrasoon sensor trigger
-	</th>
+		<li>Sensordata <b>I²C</b></li>
+		<li>Line Tracker IR aan/uit</li>
+		<li>Ultrasoon sensor trigger</li>
+	</td>
 </tr>
 <tr>
-    <th>Line Tracker</th>
-    <th>IR aan/uit</th>
-    <th>Data van 8x IR sensoren D1-D8.</th>
+    <td>Line Tracker</td>
+    <td>IR aan/uit</td>
+    <td>Data van 8x IR sensoren D1-D8.</td>
 </tr>
 <tr>
-    <th>Ultrasoon sensor</th>
-    <th>Trigger</th>
-    <th>Echo</th>
+    <td>Ultrasoon sensor</td>
+    <td>Trigger</td>
+    <td>Echo</td>
 </tr>
 <tr>
-    <th>IR-afstandssensor</th>
-    <th>N.V.T.</th>
-    <th>Afstand als analoge spanning.</th>
+    <td>IR-afstandssensor</td>
+    <td>N.V.T.</td>
+    <td>Afstand als analoge spanning.</td>
 </tr>
 </table>
 
