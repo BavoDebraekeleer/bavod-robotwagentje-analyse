@@ -763,7 +763,7 @@ Reference websites:
 ---
 
 
-## Elektrische Schema's
+## Elektrische Schema's en PCB's
 
 ### Sturingsschakeling
 
