@@ -771,6 +771,8 @@ Reference websites:
 <a href="./pictures/pcb/Sturingsschakeling_schema_v3.1.fsch">Schematic File</a><br>
 
 
+<iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e43aea80859ebfbd78d?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 <img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_layout.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-bottom.png" width="33%">
 <img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sturingsschakeling_PCBv3.1_3D-side.png" width="30%">
 
@@ -780,6 +782,8 @@ Reference websites:
 <img src="./pictures/pcb/Sensorschakeling_PCBv2.1_schematic.png" width="100%"><br>
 <a href="./pictures/pcb/Sensorenschakeling_schema_v2.1.fsch">Schematic File</a><br>
 
+
+<iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e43266dd78b7ae1c3ca?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <img src="./pictures/pcb/Sensorschakeling_PCBv2.1_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-bottom.png" width="33%">
 <img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-side.png" width="30%">
