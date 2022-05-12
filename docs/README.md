@@ -776,16 +776,48 @@ Reference websites:
 <iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e43aea80859ebfbd78d?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-### Sensorenschakeling
+### Sensorenschakelingen
 
-<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_schematic.png" width="100%"><br>
-<a href="./pictures/pcb/Sensorenschakeling_schema_v2.1.fsch">Schematic File</a><br>
+#### Sensorenschakeling
+
+Combineerd alle sensoren op één PCB met twee lagen.
+
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.3_schematic.png" width="100%"><br>
+<a href="./pictures/pcb/Sensorenschakeling_schema_v2.3.fsch">Schematic File</a><br>
 
 
-<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-bottom.png" width="33%">
-<img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.1_3D-side.png" width="30%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.3_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-side.png" width="30%">
 
-<iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e43266dd78b7ae1c3ca?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e43f35af6e629bf74a2?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+
+#### Sensorschakeling - Afstandssensoren
+
+Aparte PCB voor de twee afstandssensoren, zowel IR als Ultrasoon, op één enkele laag.
+
+<img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_schematic.png" width="100%"><br>
+<a href="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0.fsch">Schematic File</a><br>
+
+
+<img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-side.png" width="30%">
+
+<iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e4333ed0a33f964ff06?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+
+#### Sensorschakeling - Linetracker
+
+Aparte PCB voor de linetracker module op één enkele laag.
+
+<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_schematic.png" width="100%"><br>
+<a href="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0.fsch">Schematic File</a><br>
+
+
+<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-side.png" width="30%">
+
+<iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e4323b9fb0bed9636b4?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 ---
