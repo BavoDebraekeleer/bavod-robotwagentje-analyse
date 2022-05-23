@@ -1,0 +1,23 @@
+G04 EAGLE Gerber X2 export*
+%TF.Part,Single*%
+%TF.FileFunction,Profile,NP*%
+%TF.FilePolarity,Positive*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.7.0*%
+%TF.CreationDate,2022-05-23T09:25:57Z*%
+G75*
+%MOMM*%
+%FSLAX46Y46*%
+%LPD*%
+%IN*%
+%AMOC8*
+5,1,8,0,0,1.08239X$1,22.5*%
+G01*
+G04 Define Apertures*
+%ADD10C,0.254000*%
+D10*
+X0Y0D02*
+X97140000Y0D01*
+X97140000Y54640600D01*
+X0Y54640600D01*
+X0Y0D01*
+M02*
