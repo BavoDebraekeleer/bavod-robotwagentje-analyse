@@ -770,7 +770,8 @@ Reference websites:
 <img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_schema.png" width="100%"><br>
 <a href="./pictures/pcb/Sturingsschakeling_schema_v5.0.fsch">Schematic File</a><br>
 
-<img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_layout.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_layout.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_layout-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_layout-bottom.png" width="33%">
+<img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_3D-bottom.png" width="33%">
 <img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sturingsschakeling_PCBv5.0_3D-side.png" width="30%">
 
 <iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e4315df622c6781a3b6?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -786,8 +787,7 @@ Combineerd alle sensoren op één PCB met twee lagen.
 <a href="./pictures/pcb/Sensorenschakeling_schema_v2.3.fsch">Schematic File</a><br>
 
 
-<img src="./pictures/pcb/Sensorschakeling_PCBv2.3_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_layout-bottom.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_layout-top.png" width="33%">
-<img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-bottom.png" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_PCBv2.3_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-bottom.png" width="33%">
 <img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_PCBv2.3_3D-side.png" width="30%">
 
 <iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e43f35af6e629bf74a2?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
