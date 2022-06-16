@@ -889,12 +889,14 @@ Voor in-house fabricatie.
 
 <img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-bottom.png" width="33%">
 
-<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-top.jpg" width="33%">
-<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-front.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-back.jpg" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-top.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered_bottom.jpg" width="33%">
+
 
 <img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-side.png" width="30%">
 
 <iframe src="https://mymsn8893.autodesk360.com/shares/public/SH35dfcQT936092f0e4323b9fb0bed9636b4?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-front.jpg" width="50%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-back.jpg" width="50%">
 
 <img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-complete-front.jpg" width="50%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-complete-back.jpg" width="50%">
 
