@@ -492,6 +492,7 @@ Reference websites:
         </ul>
     </td>
     <td>
+	    	Alternatieve USB-poort.
 		Om het testen en programmeren eenvoudiger te maken wordt er gekozen om ook een Mini USB poort te voorzien.
 		Deze kan 5V voeding voorzien en als aangesloten op een UART poort ook de microcontrollers programmeren zoals het is op de Arduino Nano.
 		Hiervoor is er ook het volgende component nodig, een USB Interface IC met USB naar UART Bridge.
@@ -517,11 +518,36 @@ Reference websites:
         </ul>
     </td>
     <td>
-		USB aansluiting op voorraad in het labo. Voordeel van future proofing met USB-C.
+	    	Alternatieve USB-poort op voorraad in het labo, maar wel through-hole.
+	    	Voordeel van future proofing met USB-C tegenover andere USB types.
     </td>
     <td>
 		<a href="./datasheets/USB-C_2.0_USB4085-GF-A.pdf">Datasheet</a><br>
 		<a href="https://www.digikey.nl/nl/products/detail/gct/USB4085-GF-A/9859733">Winkel Digi-Key</a><br>
+	</td>
+</tr>
+<tr>
+    <td>USB4110-GF-A</td>
+    <td>
+        <ul>
+            	<li><b>USB-C USB2.0 SMD connector</b></li>
+		<li>Klemtype: through hole</li>
+		<li>V<sub>rating</sub> = 20 V DC</li>
+		<li>I<sub>rating VBUS</sub> = 3.00 A</li>
+		<li>I<sub>rating GND</sub> = 4.25 A</li>
+		<li>I<sub>rating VCONN</sub> = 1.25 A</li>
+		<li>I<sub>rating other pins</sub> = 0.25 A</li>
+		<li><i>Eenheidsprijs: €1,27 - 0,79</i></li>
+		<li><i>Lead time: 16 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+	    	Gebruikte USB-poort. SMD versie van de USB4085-GF-A en gemakkelijker met de hand soldeerbaar, maar iets duurder.
+	    	Voordeel van future proofing met USB-C.
+    </td>
+    <td>
+		<a href="./datasheets/USB4110-2888203.pdf">Datasheet</a><br>
+		<a href="https://www.mouser.be/ProductDetail/640-USB4110-GF-A">Winkel Mouser</a><br>
 	</td>
 </tr>
 <tr>
@@ -539,6 +565,7 @@ Reference websites:
         </ul>
     </td>
     <td>
+	    	Alternatief.
 		Dit component is nodig om de USB poort te verbinden met de microcontroller.
 		Verder zijn volgende componenten, naast weerstanden en condensatoren, vereist voor een correcte werking:
 		<ul>
@@ -569,7 +596,7 @@ Reference websites:
         </ul>
     </td>
     <td>
-		Alternatieve USB interface die op voorraad is in het labo en daarom gebruikt wordt.
+		Gebruikte USB interface die op voorraad is in het labo en daarom gebruikt wordt.
     </td>
     <td>
 		<a href="./datasheets/CP2102N-A02-GQFN28R.pdf">Datasheet</a><br>
@@ -595,6 +622,7 @@ Reference websites:
         </ul>
     </td>
     <td>
+	    	Alternatief. Zelf met componenten level shifter gemaakt.
 		Om de USB interface ook te kunnen gebruiken voor de ESP32, die logische niveaus heeft van 3.3 V ipv 5 V, is er een level shifter nodig.
 		De UART verbinding kan ook gebruikt worden om met andere toestellen te communiceren met logische niveaus van 5 V.
 	    	Uiteindelijk niet gebruikt. Door alternatieve USB interface die op 3.3 V TTL werkt is er maar één opttionele level shifter meer nodig en deze wordt opgebouwd zonder IC.
