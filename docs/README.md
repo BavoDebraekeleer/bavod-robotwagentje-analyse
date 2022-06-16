@@ -233,10 +233,38 @@ Reference websites:
     <th>Data</th>
 </tr>
 <tr>
+    <td>SN754410NE</td>
+    <td>
+        <ul>
+            	<li><b>Quadruple Half-H Driver</b></li>
+		<li>Through-hole IC met 2 drivers</li>
+		<li>Package: DIP</li>
+            	<li>V<sub>cc</sub> = -0.5 - +36 V</li>
+		<li>V<sub>O</sub> = -3 - +3 V</li>
+            	<li>I<sub>O</sub> = ±1 A</li>
+		<li>Power dissipation P<sub>D</sub> = 2.078 W</li>
+		<li>Minimized Power Dissipation</li>
+		<li><i>Eenheidsprijs: 2,93 - 2,48€</i></li>
+		<li><i>Lead time: 26 weken (op voorraad)</i></li>
+        </ul>
+    </td>
+    <td>
+	    	Motor driver through-hole als vervanging door laattijdige beschikbaarheid van de TC78H621FN.
+	    	Deze is duurder, maar was reeds beschikbaar in het labo.
+	    	Heeft ook een veel betere power dissipatie.
+	    	
+	</td>
+    <td>
+		<a href="./datasheets/sn754410.pdf">Datasheet</a><br>
+	    	<a href="https://www.ti.com/product/SN754410?utm_source=google&utm_medium=cpc&utm_campaign=asc-mdbu-null-prodfolderdynamic-cpc-pf-google-wwe&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gclid=CjwKCAjwqauVBhBGEiwAXOepkR7X_TbQLSMPEBN6Gi4rnnN5Pa6-_hU9Kx01femBMrHHq_HA4ZuNsRoCKgEQAvD_BwE&gclsrc=aw.ds">Website fabrikant</a><br>
+		<a href="https://be.farnell.com/texas-instruments/sn754410ne/ic-peripheral-driver-half-h-1a/dp/3118977?ost=SN754410">Winkel Farnell</a><br>
+	</td>
+</tr>
+<tr>
     <td>TC78H621FNG</td>
     <td>
         <ul>
-            	<li><b>	Stepping motor drivers</b></li>
+            	<li><b>Stepping motor drivers</b></li>
 		<li>Full, Half step resolution / Phase inputs</li>
 		<li>2-phase bipolar stepper + full bridge driver</li>
 		<li>SMD IC met 2 drivers</li>
@@ -244,12 +272,14 @@ Reference websites:
             	<li>V<sub>cc</sub> = 2.8 - 14 V</li>
 		<li>V<sub>OUT</sub> = 18 V</li>
             	<li>I<sub>OUT</sub> = 1.1 A</li>
+		<li>Power dissipation P<sub>D</sub> = 0.78 W</li>
 		<li><i>Eenheidsprijs: 1,66 - 0,82€</i></li>
 		<li><i>Lead time: 26 weken (op voorraad)</i></li>
         </ul>
     </td>
     <td>
 	    	Motor driver aangegeven door docent als te gebruiken IC en op voorraad in het labo.
+	    	
 	</td>
     <td>
 		<a href="./datasheets/TC78H621FNG_TOSC-S-A0003869562-1.pdf">Datasheet</a><br>
