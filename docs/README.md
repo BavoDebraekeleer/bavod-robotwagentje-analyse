@@ -963,7 +963,7 @@ Voor in-house fabricatie.
 		<li>Configuratie instellingen</li>
 		<li>Line Tracker data D1-D8</li>
 	</td>
-    <th>
+    <td>
 		<li>Sensordata <b>I²C</b></li>
 		<li>Line Tracker IR aan/uit</li>
 	</td>
@@ -1092,8 +1092,8 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 			
 	- <b>Sensorenschakeling</b>
 		- Narrative:
-			Het ontwerpen van twee dochter PCB's aan de hand van de analyse.
-			Eén voor de linetracker en één voor de afstandssensors.
+			Het ontwerpen van twee dochter PCB's aan de hand van de analyse.<br>
+			Eén voor de linetracker en één voor de afstandssensors.<br>
 			Deze bevatten een microcontroller die programeerbaar is kan communiceren via I²C.
 			
 		- Acceptance Criteria:
@@ -1108,8 +1108,8 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 			
 	- <b>PCB en onderdelen bestellen</b>
 		- Narrative:
-			Na het ontwerpen moeten de PCB's ook inhouse gefabriceerd worden.
-			Verder moet er een Bill of Materials (BOM) gegenereerd worden.
+			Na het ontwerpen moeten de PCB's ook inhouse gefabriceerd worden.<br>
+			Verder moet er een Bill of Materials (BOM) gegenereerd worden.<br>
 			Componenten moeten verzameld worden en de ontbrekende componenten moeten besteld worden.
 			
 		- Acceptance Criteria:
@@ -1126,7 +1126,7 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 3. Software ontwikkeling (12 Story Points)
 	- <b>Menu</b>
 		- Narrative:
-			De gebruiker moet de software modus kunnen bepalen via een menu met opties aangestuurd via Wifi of Bluetooth.
+			De gebruiker moet de software modus kunnen bepalen via een menu met opties aangestuurd via Wifi of Bluetooth.<br>
 			Dit menu wordt op het ingebouwde OLED-display weergegeven.
 			
 		- Acceptance Criteria:
@@ -1141,7 +1141,7 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 	- <b>Manuele bediening</b>
 		- Narrative:
 			De gebruiker moet het robotwagentje manueel kunnen bedienen.
-			De commando's worden via internet of Bluetooth verzonden en via WiFi of Bluetooth ontvangen door de ESP32-module.
+			De commando's worden via internet of Bluetooth verzonden en via WiFi of Bluetooth ontvangen door de ESP32-module.<br>
 			Deze moet de commando's verwerken en de Motor Driver aansturen.
 			
 		- Acceptance Criteria:
@@ -1158,10 +1158,10 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 			- IR-afstandssensor voor nauwkeurige korte afstand.
 			- Ultrasoon sensor voor grove lange afstand.
 			
-			Wanneer er een obstakel gedetecteerd wordt waarmee het wagentje dreigt te botsen moet het wagentje bijgestuurd worden.
-			Het zal blijven draaien, links of rechts, tot er een vrij pad gevonden wordt.
-			Waarna het wagentje terug rechtdoor kan rijden.
-			Aangezien de sensoren op het dochter PCB staan moet de sensor data gelezen en verwerkt worden met de Arduino Nano/ATMega328p.
+			Wanneer er een obstakel gedetecteerd wordt waarmee het wagentje dreigt te botsen moet het wagentje bijgestuurd worden.<br>
+			Het zal blijven draaien, links of rechts, tot er een vrij pad gevonden wordt.<br>
+			Waarna het wagentje terug rechtdoor kan rijden.<br>
+			Aangezien de sensoren op het dochter PCB staan moet de sensor data gelezen en verwerkt worden met de Arduino Nano/ATMega328p.<br>
 			Deze moet dan verzonden worden over I²C naar de ESP23.
 			
 		- Acceptance Criteria:
@@ -1177,11 +1177,11 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 			
 	- <b>Volgens vast patroon rijden</b>
 		- Narrative:
-			Het robotwagentje moet een zwarte lijn kunnen volgen in een bepaald patroon.
-			Dit gebeurt aan de hand van een IR Line tracker.
-			Als het wagentje afwijkt van de lijn moet er bijgestuurd worden in de juiste richting.
-			Het moet ook instaat zijn om een hoek te detecteren en de correcte bocht te nemen.
-			Aangezien de sensoren op het dochter PCB staan moet de sensor data gelezen en verwerkt worden met de Arduino Nano/ATMega328p.
+			Het robotwagentje moet een zwarte lijn kunnen volgen in een bepaald patroon.<br>
+			Dit gebeurt aan de hand van een IR Line tracker.<br>
+			Als het wagentje afwijkt van de lijn moet er bijgestuurd worden in de juiste richting.<br>
+			Het moet ook instaat zijn om een hoek te detecteren en de correcte bocht te nemen.<br>
+			Aangezien de sensoren op het dochter PCB staan moet de sensor data gelezen en verwerkt worden met de Arduino Nano/ATMega328p.<br>
 			Deze moet dan verzonden worden over I²C naar de ESP23.
 			
 		- Acceptance Criteria:
@@ -1198,8 +1198,8 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 4. Hardware samenstelling (8 Story Points)
 	- <b>3D Print onderdelen</b>
 		- Narrative:
-			Om het dochter PCB op het wagentje te bevestigen moet een nieuw voorkant ontworpen worden voor het wagentje.
-			Hierbij moet er rekening gehouden worden dat de sensors goed geplaatst worden.
+			Om het dochter PCB op het wagentje te bevestigen moet een nieuw voorkant ontworpen worden voor het wagentje.<br>
+			Hierbij moet er rekening gehouden worden dat de sensors goed geplaatst worden.<br>
 			Dit zal gebeuren door de studenten die de minor Maker volgen.
 			
 		- Acceptance Criteria:
@@ -1212,7 +1212,7 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 		
 	- <b>Hoofd PCB bestukken</b>
 		- Narrative:
-			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.
+			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.<br>
 			De componenten moeten verzameld worden en volgens schema gesoldeerd.
 			
 		- Acceptance Criteria:
@@ -1226,7 +1226,7 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 	
 	- <b>Dochter PCB's bestukken</b>
 		- Narrative:
-			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.
+			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.<br>
 			De componenten moeten verzameld worden en volgens schema gesoldeerd.
 			
 		- Acceptance Criteria:
@@ -1278,7 +1278,7 @@ Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stori
 			
  	- <b>Software testen</b>
  		- Narrative:
-			Tijdens de software ontwikkeling worden er unit tests uitgevoerd op de verschillende onderdelen.
+			Tijdens de software ontwikkeling worden er unit tests uitgevoerd op de verschillende onderdelen.<br>
 			Als alle onderdelen volledig zijn wordt ook de werking samen getest.
 			
 		- Acceptance Criteria:
