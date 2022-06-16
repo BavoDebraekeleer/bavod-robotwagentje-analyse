@@ -124,8 +124,8 @@ Deze moeten dienen om de software van het wagentje te kunnen testen.
 <iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOEQMNko=/?pres=1&frameId=3458764523376607643" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 ### Blokschema afbeelding
-<img src="./pictures/diagrams/blokschema_v3.1.jpg" alt="Blokschema afbeelding" width="100%"><br>
-<a href="./pictures/diagrams/blokschema_v3.1.jpg">Blokschema afbeelding openen.</a><br>
+<img src="./pictures/diagrams/blokschema_v5.jpg" alt="Blokschema afbeelding" width="100%"><br>
+<a href="./pictures/diagrams/blokschema_v5.jpg">Blokschema afbeelding openen.</a><br>
 
 
 ---
@@ -864,7 +864,7 @@ Aparte PCB voor de linetracker module op één enkele laag.
 </tr>
 </table>
 
-### Sensorenschakeling
+### Sensorenschakeling Line Tracker
 
 <table style="width: 100%">
 <colgroup>
@@ -882,19 +882,41 @@ Aparte PCB voor de linetracker module op één enkele laag.
     <td>
 		<li>Configuratie instellingen</li>
 		<li>Line Tracker data D1-D8</li>
+	</td>
+    <th>
+		<li>Sensordata <b>I²C</b></li>
+		<li>Line Tracker IR aan/uit</li>
+	</td>
+</tr>
+<tr>
+    <td>IR aan/uit</td>
+    <td>Data van 8x IR sensoren D1-D8.</td>
+</table>
+
+### Sensorenschakeling Afstandssensoren
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 20%;">
+    <col span="2" style="width: 40%;">
+    <col span="3" style="width: 40%;">
+</colgroup>
+<tr>
+    <th>Blok</th>
+    <th>Data In</th>
+    <th>Data Out</th>
+</tr>
+<tr>
+    <th>ATMega328p</th>
+    <td>
+		<li>Configuratie instellingen</li>
 		<li>Ultrasoon sensor echo</li>
 		<li>IR-afstandssensor afstand als analoge spanning.</li>
 	</td>
     <th>
 		<li>Sensordata <b>I²C</b></li>
-		<li>Line Tracker IR aan/uit</li>
 		<li>Ultrasoon sensor trigger</li>
 	</td>
-</tr>
-<tr>
-    <td>Line Tracker</td>
-    <td>IR aan/uit</td>
-    <td>Data van 8x IR sensoren D1-D8.</td>
 </tr>
 <tr>
     <td>Ultrasoon sensor</td>
@@ -911,26 +933,29 @@ Aparte PCB voor de linetracker module op één enkele laag.
 ---
 
 ## Statediagrams & Flowcharts
+
+<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764527646663194" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
+### Modus Menu
+<img src="./pictures/diagrams/statediagram-flowchart-menu_v2.jpg" width="100%"><br>
  
 ### Manuele bediening
-<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754073757" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-manueel.jpg" width="600px"><br>
-<img src="./pictures/diagrams/statediagram-manueel-flowchart.jpg" width="1000px"><br>
+<img src="./pictures/diagrams/statediagram-flowchart-modus-manueel_v2.jpg" width="100%"><br>
+
 
 ### Automatisch rijden
-<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218057" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-auto.jpg" width="600px"><br>
-<img src="./pictures/diagrams/statediagram-auto-flowchart.jpg" width="800px"><br>
+<img src="./pictures/diagrams/statediagram-flowchart-modus-auto_v2.jpg" width="100%"><br>
 
 ### Volgens vast patroon rijden
-<iframe width="1000" height="1000" src="https://miro.com/app/embed/uXjVOCBJkAk=/?pres=1&frameId=3458764521754218132" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-<img src="./pictures/diagrams/statediagram-patroon.jpg" width="600px"><br>
-<img src="./pictures/diagrams/statediagram-patroon-flowchart.jpg" width="1000px"><br>
+<img src="./pictures/diagrams/statediagram-flowchart-modus-patroon_v2.jpg" width="100%"><br>
 
 
 ---
 
 # Release Plan
+
+De planning wordt uitgevoerd in vijf sprints van telkens twee weken.
+Elke sprint worden Epics toegewezen die verder zijn opgedeeld in Technical Stories.
 
 ## Epics
 
@@ -945,7 +970,7 @@ Aparte PCB voor de linetracker module op één enkele laag.
 
 ## Technical Stories
 
-1. Analyse
+1. Analyse (10 Story Points)
 	- <b>Analyse maken</b>
 		- Narrative:
 			Analyse van de sturingsschakeling volgens onderstaand criteria.
@@ -964,9 +989,9 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Release plan
 			 
 		- Story Points (Estimate):
-			4
+			10
 
-2. PCB ontwerp
+2. PCB ontwerp (10 Story Points)
 	- <b>Sturingsschakeling</b>
 		- Narrative:
 			Het ontwerpen van de hoofd PCB aan de hand van de analyse.
@@ -980,25 +1005,30 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			 - OLED-scherm met I²C-sturing op PCB
 			 - Batterij aansluiting (GND, VCC)
 			 - Drill holes voor bevestiging van de PCB op het wagentje.
+			 - Voldoet aan de vereisten voor in-house fabricatie.
 		 
 		- Story Points (Estimate):
-			4
+			5
 			
 	- <b>Sensorenschakeling</b>
 		- Narrative:
-			Het ontwerpen van de dochter PCB aan de hand van de analyse.
+			Het ontwerpen van twee dochter PCB's aan de hand van de analyse.
+			Eén voor de linetracker en één voor de afstandssensors.
+			Deze bevatten een microcontroller die programeerbaar is kan communiceren via I²C.
 			
 		- Acceptance Criteria:
-			- Ultrasoon
-			- IR afstandssensoren
-			- 8 channel IR Line tracker
+			- Eén PCB die de data van de Ultrasoon en IR afstandssensoren kan verwerken.
+			- Eén PCB die de data van de 8 channel IR Line tracker kan verwerken.
+			- Microcontroller die de data kan verwerken en doorsturen via I²C.
+			- Drill holes voor bevestiging van de PCB op het wagentje.
+			- Voldoet aan de vereisten voor in-house fabricatie.
 		 
 		- Story Points (Estimate):
-			2
+			3
 			
 	- <b>PCB en onderdelen bestellen</b>
 		- Narrative:
-			Na het ontwerpen moeten de PCB's ook besteld worden.
+			Na het ontwerpen moeten de PCB's ook inhouse gefabriceerd worden.
 			Verder moet er een Bill of Materials (BOM) gegenereerd worden.
 			Componenten moeten verzameld worden en de ontbrekende componenten moeten besteld worden.
 			
@@ -1007,27 +1037,39 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Board files met de PCB-designs
 			- gerber-files van beide PCB's
 			- Bill of Materials
-			- PCB's bestellen
+			- PCB's fabriceren
 			- Ontbrekende componenten bestellen.
 		 
 		- Story Points (Estimate):
-			1
+			2
 
-3. Software ontwikkeling
+3. Software ontwikkeling (12 Story Points)
+	- <b>Menu</b>
+		- Narrative:
+			De gebruiker moet de software modus kunnen bepalen via een menu met opties aangestuurd via Wifi of Bluetooth.
+			Dit menu wordt op het ingebouwde OLED-display weergegeven.
+			
+		- Acceptance Criteria:
+			- Weergeven menu op OLED-display.
+			- Modus instellen
+			- WiFi en Bluetooth verbinding.
+			- Verwerking van commando's volgens statediagram en flowhcart.
+		 
+		- Story Points (Estimate):
+			3
+			
 	- <b>Manuele bediening</b>
 		- Narrative:
 			De gebruiker moet het robotwagentje manueel kunnen bedienen.
-			De commando's worden via internet verzonden en via WiFi ontvangen door de ESP32-WROOM-32 Dev. Kit module.
-			Deze moet de commando's dan verwerken en doorsturen naar de Motor Drivers.
+			De commando's worden via internet of Bluetooth verzonden en via WiFi of Bluetooth ontvangen door de ESP32-module.
+			Deze moet de commando's verwerken en de Motor Driver aansturen.
 			
 		- Acceptance Criteria:
-			- Modus instellen
-			- WiFi verbinding
 			- Verwerking van commando's volgens statediagram en flowhcart.
-			- Aansturen van de motors via de Motor Drivers.
+			- Aansturen van de motors via de Motor Driver.
 		 
 		- Story Points (Estimate):
-			2
+			3
 			
 	- <b>Automatisch rijden</b>
 		- Narrative:
@@ -1051,7 +1093,7 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Correcte aansturing van de motor via de Motor Drivers met de ESP32.
 		 
 		- Story Points (Estimate):
-			4
+			3
 			
 	- <b>Volgens vast patroon rijden</b>
 		- Narrative:
@@ -1071,14 +1113,14 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Correcte aansturing van de motor via de Motor Drivers met de ESP32.
 		 
 		- Story Points (Estimate):
-			4
+			3
 
-4. Hardware samenstelling
+4. Hardware samenstelling (8 Story Points)
 	- <b>3D Print onderdelen</b>
 		- Narrative:
 			Om het dochter PCB op het wagentje te bevestigen moet een nieuw voorkant ontworpen worden voor het wagentje.
 			Hierbij moet er rekening gehouden worden dat de sensors goed geplaatst worden.
-			Dit zal gebeuren door de studenten die de Minor Maker volgen.
+			Dit zal gebeuren door de studenten die de minor Maker volgen.
 			
 		- Acceptance Criteria:
 			- Line tracker moet <40 mm van de grond hangen.
@@ -1086,9 +1128,9 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- USB-poorten van ESP32 en Arduino goed bereikbaar.
 		 
 		- Story Points (Estimate):
-			2
+			N/A (Enkel voor studenten van de minor Maker.)
 		
-	- <b>Hoofd PCB solderen</b>
+	- <b>Hoofd PCB bestukken</b>
 		- Narrative:
 			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.
 			De componenten moeten verzameld worden en volgens schema gesoldeerd.
@@ -1097,11 +1139,12 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Controle PCB print
 			- Juiste plaatsing componenten volgens schema.
 			- Kwalitatief gesoldeerd.
+			- Werkende schakeling bekomen.
 		 
 		- Story Points (Estimate):
-			2
+			4
 	
-	- <b>Dochter PCB solderen</b>
+	- <b>Dochter PCB's bestukken</b>
 		- Narrative:
 			Eens de PCB is toegekomen kunnen de componenten gesoldeerd worden.
 			De componenten moeten verzameld worden en volgens schema gesoldeerd.
@@ -1110,6 +1153,7 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Controle PCB print
 			- Juiste plaatsing componenten volgens schema.
 			- Kwalitatief gesoldeerd.
+			- Werkende schakeling bekomen.
 		 
 		- Story Points (Estimate):
 			2
@@ -1123,28 +1167,56 @@ Aparte PCB voor de linetracker module op één enkele laag.
 			- Onderdelen met elkaar verbonden waar nodig.
 		 
 		- Story Points (Estimate):
-			1
+			2
 
-5. Software implementatie
+5. Software implementatie (4 Story Points)
 	- <b>Microcontrollers programmeren</b>
 		- Narrative:
 			Nu de hardware klaar is moet de software nog geprogrammeerd worden op de microcontrollers.
 			
 		- Acceptance Criteria:
-			- ESP32-WROOM-32 Dev. Kite geprogrammeerd.
-			- Arduino Nano geprogrammeerd.
+			- Sturingsschakeling geprogrammeerd.
+			- Sturingsschakeling geprogrammeerd.
 		 
 		- Story Points (Estimate):
-			1
+			4
 
 
-6. Validatie
-	- <b>Tests uitvoeren</b>
+6. Validatie (6 Story Points)
+ 	- <b>Hardware testen</b>
+ 	 	- Narrative:
+			Eens de PCB's bestukt zijn moeten deze getest worden op een correcte werking.
+			
+		- Acceptance Criteria:
+			- Alle componenten krijgen de correcte stroomvoorziening en spanning.
+			- Microcontrollers werken correct.
+			- Inputs en outputs werken.
+			- Programmeren van de microcontrollers lukt.
+		 
+		- Story Points (Estimate):
+			2
+			
+ 	- <b>Software testen</b>
+ 		- Narrative:
+			Tijdens de software ontwikkeling worden er unit tests uitgevoerd op de verschillende onderdelen.
+			Als alle onderdelen volledig zijn wordt ook de werking samen getest.
+			
+		- Acceptance Criteria:
+			- Sensordata wordt opgemeten.
+			- Sensordata wodrt correct verwerkt.
+			- Modus instelling werkt.
+			- Modussen hebben een correcte werking.
+		 
+		- Story Points (Estimate):
+			2
+			
+	- <b>Testen geheel</b>
 		- Narrative:
 			Eens het robotwagentje volledig in elkaar steekt en de software erop staat is het moment van de waarheid aangebroken en zal het moeten getest worden.
 			
 		- Acceptance Criteria:
 			- Alle componenten krijgen de correcte stroomvoorziening en spanning.
+			- Microcontrollers werken correct.
 			- Sensordata wordt opgemeten.
 			- Sensordata wodrt correct verwerkt.
 			- Modus instelling werkt.
@@ -1158,11 +1230,13 @@ Aparte PCB voor de linetracker module op één enkele laag.
 
 ## Sprints
 
-1. Analyse & PCB ontwerp
+De sprint planning is opgedeeld in vijf sprints van elk twee weken.
+
+1. Analyse & PCB ontwerp (20 Story Points)
 2. <em>Afwezig door Internationaal Project: Zanzibar</em>
 3. <em>Afwezig door Internationaal Project: Zanzibar</em>
-4. Presentatie Analyse & Software ontwikkeling
-5. Hardware samenstelling & Software implementatie & Validatie
+4. Presentatie Analyse & Software ontwikkeling & Hardware samenstelling (20 Story Points)
+5. Software implementatie & Validatie (10 Story Points)
 
 <a href="https://www.ap.be/sites/default/files/reglementen/OT/2021-2022/Academische_kalender_21-22_OT.pdf">Academische kalender 2021-22</a><br>
 
