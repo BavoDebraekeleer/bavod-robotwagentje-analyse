@@ -869,7 +869,7 @@ Voor in-house fabricatie.
 
 <img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-bottom.png" width="33%">
 
-<img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_prototype.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_prototype-soldered-top.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_prototype-soldered_bottom.jpg" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_prototype.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_prototype-soldered-top.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_prototype-soldered-bottom.jpg" width="33%">
 
 <img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_Afstandssensoren_PCBv1.0_3D-side.png" width="30%">
 
@@ -889,7 +889,7 @@ Voor in-house fabricatie.
 
 <img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_layout.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-top.png" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-bottom.png" width="33%">
 
-<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-top.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered_bottom.jpg" width="33%">
+<img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-top.jpg" width="33%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_prototype-soldered-bottom.jpg" width="33%">
 
 
 <img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-pers.png" width="70%"><img src="./pictures/pcb/Sensorschakeling_Linetracker_PCBv1.0_3D-side.png" width="30%">
