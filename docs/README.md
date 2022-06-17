@@ -53,7 +53,7 @@ Eigenschappen:
 
 ---
 
-## To-Be Situatie
+## To-Be Situatie of Systeemspecificaties
 
 ### Opdracht doelen
 
@@ -66,7 +66,7 @@ Eigenschappen:
 
 Dit is de hoofd PCB.
 
- - ESP32-WROOM-32 microcontroller zelf integreren in PCB.
+ - ESP32-WROVER-B microcontroller module zelf integreren in PCB.
  - SMD componenten gebruiken.
  - 2x UART connectoren
  - 3x I²C connectoren
@@ -74,7 +74,7 @@ Dit is de hoofd PCB.
 	- 5V
 	- 3.3V
  - Polariteitsbeveiliging
- - 2x SMD Motor driver, vb. LA6583MC-AH
+ - 2x SMD Motor driver
 	- 7.2V
 	- 700mA (Start stroom = 6x nominale stroom)
 	- Prijs < €1
@@ -86,18 +86,19 @@ Dit is de hoofd PCB.
 
 ### Sensorenschakeling vereisten:
 
-Op dochter PCB bordje.
+Samen op één dochter PCB of opgedeeld in meerdere PCB bordjes.
 
  - ATMega328p
  - Ultrasoon + IR afstandssensoren
- - 8 channel IR Linetracker
+ - 8 channel IR Line tracker
 
 
 ### Besturing
 
- - Manuele bediening mogelijkheid.
- - Automatisch rijden.
- - Volgens vast patroon rijden.
+ - Modus selectie
+ - Manuele bediengingsmodus
+ - Automatisch rijden (afstandsmetingen)
+ - Volgens vast patroon rijden (lijn volgen)
 
 Er moeten ook een aantal verkeer signalisaties ontwikkeld worden zoals verkeerslichten, slagbomen, enz.<br>
 Deze moeten dienen om de software van het wagentje te kunnen testen.
