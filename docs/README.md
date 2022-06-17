@@ -994,7 +994,8 @@ Voor in-house fabricatie.
 		<li>Ultrasoon sensor echo</li>
 		<li>IR-afstandssensor afstand als analoge spanning.</li>
 	</td>
-    <th>
+    <td>
+	    	<td>Line tracker</td>
 		<li>Sensordata <b>I²C</b></li>
 		<li>Ultrasoon sensor trigger</li>
 	</td>
