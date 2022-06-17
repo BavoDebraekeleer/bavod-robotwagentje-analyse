@@ -908,6 +908,9 @@ Voor in-house fabricatie.
 
 ## Data I/O
 
+<img src="./pictures/diagrams/Software_IO.drawio.png" width="100%">
+
+
 ### Sturingsschakeling
 
 <table style="width: 100%">
