@@ -973,8 +973,9 @@ Voor in-house fabricatie.
 	</td>
 </tr>
 <tr>
-    <td>IR aan/uit</td>
-    <td>Data van 8x IR sensoren D1-D8.</td>
+	<td>Line tracker</td>
+    	<td>IR aan/uit</td>
+    	<td>Data van 8x IR sensoren D1-D8.</td>
 </table>
 
 ### Sensorenschakeling Afstandssensoren
@@ -998,7 +999,6 @@ Voor in-house fabricatie.
 		<li>IR-afstandssensor afstand als analoge spanning.</li>
 	</td>
     <td>
-	    	<td>Line tracker</td>
 		<li>Sensordata <b>I²C</b></li>
 		<li>Ultrasoon sensor trigger</li>
 	</td>
